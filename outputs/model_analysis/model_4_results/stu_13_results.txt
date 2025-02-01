@@ -1,0 +1,56 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and completeness. It doesn't mention the crucial aspects of well-defined instructions and problem-solving.  Missing keywords like "finite," "well-defined," "specific task," and "problem."
+    * Finiteness: Correct concept but lacks detailed explanation (1/1.5). No mention of "reasonable time."
+    * Definiteness: Correct concept but lacks detailed explanation (1/1.5). No mention of "consistent performance."
+    * Input: Correct concept (1.5/1.5).
+    * Output: Correct concept (1.5/1.5).
+    * Effectiveness: Partially correct, but phrasing is weak (0.5/1.5). "Something that can work" is vague. Should mention "simple," "feasible," and "limited time."
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correct example and basic functionality demonstrated.
+    * Missing formal definition and explanation of the function's purpose.
+    * Syntax declaration is missing.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correct example and basic functionality demonstrated.
+    * Missing formal definition and explanation of the function's purpose (excluding null character).
+    * Syntax declaration is missing.  
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * The program functions correctly and produces the desired output.
+    * Minor deduction for less informative prompt ("name is?" instead of a clearer instruction).  Could be improved with better user prompts and error handling (e.g., handling input longer than the buffer).
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 12.5
+* **Percentage:** 62.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Overall Summary:**
+
+The student demonstrates a basic understanding of algorithms and string functions but lacks precision and depth in their explanations. The programming skills are evident in the C program, although minor improvements in coding style and user interface elements are recommended. The student needs to focus on providing more complete and formally structured answers, including definitions, syntax, and detailed explanations of concepts.  The student also needs to work on using more precise technical terminology.

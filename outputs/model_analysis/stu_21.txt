@@ -1,0 +1,84 @@
+question1 answer:
+Algorithm is a set of ordered steps to solve a problem. It's like a recipe for computers. We need to define algorithms so computers know what to do.
+
+Five Important Properties of Algorithm:
+
+It should stop - Finiteness. If it doesn't stop, it's not useful. Importance: To get answer in time.
+
+It should be clear - Definiteness. Every step should be clear. Importance: To avoid errors and be consistent.
+
+It can take input. Importance: To handle different data.
+
+It should give output. Importance: To see the result.
+
+It should be possible - Effectiveness. Every step must be possible to do. Importance: To be practical.
+
+question2 answer:
+2a.
+i. strcpy() - String Copy: Copies one string to another.
+
+Syntax:
+strcpy(dest, src);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char s1[] = "example";
+char s2[10];
+strcpy(s2 = s1); // Note: Incorrect assignment here
+printf("String 2 is %s", s2);
+}
+
+Output:
+Error during compilation because of strcpy(s2 = s1);
+
+ii. strlen() - String Length: Finds the length of a string.
+
+Syntax:
+strlen(string_name);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char text[] = "string";
+int length = strlen(text);
+printf("Length of string = %d", length);
+}
+
+Output:
+Length of string = 6
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char name_input[40];
+  printf("Enter your name: ");
+  scanf("%s", name_input);
+
+  for (int i = 0; i < sizeof(name_input); i++) { // Note: Still using sizeof, but now no null check
+    printf("%c - %d\n", name_input[i], name_input[i]);
+  }
+  return 0;
+}
+
+Example Output:
+Enter your name: Daniel
+D - 68
+a - 97
+n - 110
+i - 105
+e - 101
+l - 108
+
+0
+
+0
+
+0

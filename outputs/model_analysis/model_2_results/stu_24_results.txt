@@ -1,0 +1,46 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm and accurately described all five characteristics along with their importance. The definition could be slightly more formal, hence a minor deduction.  Instead of "It's like a detailed recipe," a phrasing like "a well-defined sequence of steps" would be more academically appropriate.
+
+**Question 2a(i): Explain strcpy() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student provided a correct explanation and a working example. However, the syntax provided is missing the data types (char*).  A more complete syntax declaration would be: `char* strcpy(char *destination, const char *source);`  The `const` is important to indicate that the source string shouldn't be modified.
+
+**Question 2a(ii): Explain strlen() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** Similar to strcpy(), the explanation and example are correct, but the syntax is incomplete. It lacks the return type (size_t) and the argument type (const char*). The correct syntax is: `size_t strlen(const char *str);`  The `const` and `size_t` are crucial for understanding the function's behavior and usage.
+
+**Question 2b: Write a C program to read a name and output its ASCII codes.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program is correct and efficiently implements the required functionality. The code is well-formatted, includes necessary headers, and produces the expected output.  No issues found.
+
+
+## Summary:
+
+* **Total Score:** 28.5 / 30
+* **Percentage:** 95%
+
+## Flagged Responses for Manual Review:
+
+* None.  All answers were clearly matched to the corresponding questions.
+
+
+## Areas Where Student Answers Deviate from Expected Solutions:
+
+* **Question 1:** The definition of an algorithm, while conceptually correct, lacked the formal precision expected in a technical exam.
+* **Question 2a(i) and 2a(ii):** The syntax provided for `strcpy()` and `strlen()` was incomplete, missing crucial type information. This indicates a potential lack of attention to detail in remembering function signatures.  While the examples worked correctly, understanding the full function signature is important for proper usage in different contexts.
+
+
+## Overall Assessment:
+
+The student demonstrates a strong understanding of algorithms and basic string manipulation in C. The minor deductions are primarily related to formal precision and completeness in definitions and syntax. With some attention to detail in these areas, the student can achieve even higher levels of accuracy.

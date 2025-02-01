@@ -1,0 +1,76 @@
+question1 answer:
+Algorithm definition: An algorithm is a set of instructions designed to perform a specific task. It's a process that a computer follows to solve a problem.
+
+Five important characteristics of an algorithm:
+
+Finiteness: An algorithm must terminate after a finite number of steps. Importance: Ensures the algorithm completes in a reasonable time and doesn't run forever.
+
+Definiteness: Each step must be clear and unambiguous. Importance: Prevents confusion and ensures consistent execution.
+
+Input: An algorithm can take input. Importance: Allows for processing of variable data.
+
+Output: An algorithm must produce output. Importance: Provides the solution to the problem.
+
+Effectiveness: Each step should be simple and feasible. Importance: Ensures practical execution in limited time.
+
+question2 answer:
+2a.
+i. strcpy() - String Copy: Copies one string to another.
+
+Syntax:
+strcpy(destination, source);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char original[] = "string";
+char copy[10];
+strcpy(copy, original);
+printf("Copied string: %s\n", copy);
+return 0;
+}
+
+Output:
+Copied string: string
+
+ii. strlen() - String Length: Calculates string length.
+
+Syntax:
+strlen(str);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char text_str[] = "exampletext";
+int len = strlen(text_str);
+printf("String length: %d\n", len);
+return 0;
+}
+
+Output:
+String length: 11
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char name_input[80];
+  printf("Enter your name: ");
+  scanf("%s", name_input);
+
+  for (int i = 0; i < string_length(name_input); i++) { // Note: Using non-existent function string_length
+    printf("%c - %d\n", name_input[i], name_input[i]);
+  }
+  return 0;
+}
+
+
+Example Output:
+Enter your name: Maya
+Error during compilation because of string_length(name_input) - function not defined.

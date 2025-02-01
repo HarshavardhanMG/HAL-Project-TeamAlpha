@@ -1,0 +1,55 @@
+question1 answer:
+Algorithm is just steps to get some job done. Its like a set of instructions that needs to be very clear.
+It has 5 main things:
+
+Finiteness. Algorithm has to finish after some steps
+
+Definiteness: It has to be very clear
+
+Input: It may need inputs
+
+Output: should give some output
+
+Effectiveness: it needs to be something doable.
+
+question2 answer:
+a)
+i. strcpy() copies the string to other string
+example
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str1[20] = "abc";
+    char str2[20];
+    strcpy(str2, str1);
+    printf("%s", str2);
+}
+
+
+ii. strlen() gives the length of the string
+example
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char str1[20] = "abc";
+    int len = strlen(str1);
+    printf("%d", len);
+}
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char name[50];
+    int i;
+    printf("enter your name ");
+    scanf("%s",name);
+    printf("ascii:\n");
+    for(i=0;i<strlen(name);i++) {
+        printf("%c: %d\n",name[i],name[i]);
+    }
+    return 0;
+}

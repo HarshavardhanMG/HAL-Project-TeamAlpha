@@ -1,0 +1,52 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm and accurately explained all five characteristics along with their importance. However, the definition could be slightly more formal.  While "plan to get something done in a computer program" is understandable, using terms like "finite set of well-defined instructions" provides more clarity and precision.  -0.5 marks for the less formal definition.
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2.5
+* **Feedback:** The student correctly explained the function, provided the correct syntax, and included a working example with the correct output.
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2.5
+* **Feedback:** The student correctly explained the function, provided the correct syntax, and included a working example with the correct output.
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student wrote a correct and efficient C program that reads a name from the keyboard and outputs the ASCII values of each character. The code is well-formatted and includes clear output. Using the null terminator ('\0') in the loop condition is a good practice.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 19.5
+* **Percentage:** 97.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Detailed Score Breakdown:**
+
+| Question | Maximum Marks | Awarded Marks | Feedback |
+|---|---|---|---|
+| 1 | 10 | 9.5 | Definition could be more formal. Otherwise, excellent. |
+| 2a(i) | 2.5 | 2.5 | Perfect answer. |
+| 2a(ii) | 2.5 | 2.5 | Perfect answer. |
+| 2b | 5 | 5 | Excellent code and explanation. |
+
+
+**Overall Assessment:**
+
+The student demonstrated a strong understanding of algorithms and their characteristics.  The C programming skills are also excellent, showcasing the ability to write clean, efficient, and correct code. The minor deduction in Question 1 is for lacking the formal language expected in a technical definition, but the overall understanding is clearly present.  This is a high-quality answer sheet.

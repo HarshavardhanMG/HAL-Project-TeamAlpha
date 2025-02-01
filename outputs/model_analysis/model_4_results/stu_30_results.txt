@@ -1,0 +1,59 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and doesn't mention key aspects like finiteness, well-defined instructions, and problem-solving.  It's more of a layman's explanation.
+    * Finiteness: Correct characteristic but explanation lacks the mention of "infinite loop" (1/1.5).
+    * Definiteness: Correct characteristic and explanation (1.5/1.5).
+    * Input: Correct characteristic and explanation (1.5/1.5).
+    * Output: Correct characteristic and explanation (1.5/1.5).
+    * Effectiveness: Correct characteristic but the explanation is slightly weak. It should emphasize feasibility and executability within constraints (1/1.5).
+
+
+**Question 2a(i): strcpy() - syntax and example**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** 
+    * Correct syntax and functionality demonstrated.
+    * Minor deduction for using `void main()` which is not standard C (should be `int main()`).  
+    * Missing `return 0;` in `main` function.
+
+
+**Question 2a(ii): strlen() - syntax and example**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Correct functionality demonstrated.
+    * Syntax provided lacks the data type (`size_t`) and `const` qualifier for the input string.
+    * Minor deduction for using `void main()` which is not standard C (should be `int main()`).
+    * Missing `return 0;` in `main` function.
+
+
+**Question 2b: C program to read name and output ASCII codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:**
+    * Correctly implements the required functionality using a `while` loop.
+    * Good use of `scanf` to read the name (although potential buffer overflow if input exceeds array size -  not penalized at this level, but a good point to raise in feedback).
+    * Clear and correct output format.
+
+
+**Total Score:** 15.5 / 20
+
+**Percentage:** 77.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Log of Unmatched or Ambiguously Matched Responses:** None
+
+
+**Overall Feedback:**
+
+The student demonstrates a basic understanding of algorithms and string handling functions. However, the answers lack precision and depth in some areas, particularly in the definition and explanation of algorithm characteristics. The C code is functional but needs minor improvements in terms of standard practices and completeness of syntax definitions.  The student should be encouraged to use more precise language and refer to formal definitions when explaining technical concepts.  Reinforce the importance of using `int main()` and including `return 0;` in C programs.  Finally, introduce the concept of buffer overflows when using functions like `scanf` with string inputs.

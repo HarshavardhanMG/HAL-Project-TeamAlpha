@@ -1,0 +1,54 @@
+## Evaluation of Student Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4.5
+* **Feedback:** The student provided a simplified definition of an algorithm, missing the key aspects of well-defined instructions, finiteness, and problem-solving.  While the student listed the five characteristics, the explanations for their importance were overly simplistic and lacked depth.  The student understood the general concept but failed to articulate the nuances of each characteristic's importance in algorithm design.
+
+    * Definition: 1/2.5  (Missing key elements)
+    * Finiteness: 1/1.5 (Explanation too simplistic)
+    * Definiteness: 1/1.5 (Explanation too simplistic)
+    * Input: 0.5/1.5 (Explanation lacks depth regarding dynamic data handling)
+    * Output: 0.5/1.5 (Explanation lacks depth regarding problem solution representation)
+    * Effectiveness: 0.5/1.5 (Explanation lacks depth regarding feasibility and time constraints)
+
+
+**Question 2a: Explain the following string handling functions with examples. i. strcpy() - syntax and example ii. strlen()- syntax and example**
+
+* **Maximum Marks:** 5 (2.5 for each function)
+* **Awarded Marks:** 3
+* **Feedback:** The student provided a working example for `strcpy()` but lacked a formal definition. The syntax provided was incomplete, missing the data types. For `strlen()`, the student's example had a critical error (using `char` instead of `char[]`), resulting in a compilation error. The syntax was also incomplete.  
+
+    * `strcpy()`: 1.5/2.5 (Working example but missing definition and complete syntax)
+    * `strlen()`: 1.5/2.5 (Incorrect example due to type mismatch, missing definition and complete syntax)
+
+
+**Question 2b: Write a C program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:** The student's program functions correctly, successfully reading the name and printing the ASCII values. However, using `0` instead of `'\0'` to check for the null terminator, while functionally equivalent in this case, is not best practice and demonstrates a slight misunderstanding of string termination.  The lack of comments to explain the logic slightly reduces the clarity of the code.
+
+    * Functionality: 4/5 (Correct output but minor stylistic and understanding issues)
+
+
+
+**Total Score:**
+
+* **Total Marks:** 15
+* **Marks Obtained:** 11.5
+* **Percentage:** 76.67%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All responses could be confidently matched to the corresponding questions based on content.
+
+
+**Areas for Improvement:**
+
+* The student needs to focus on providing more detailed and precise definitions.
+* Understanding of core concepts like string termination in C needs reinforcement.
+* Encouraging the use of comments to explain code logic would improve code readability and understanding.
+* Practicing writing more comprehensive explanations for technical concepts is crucial.  The student demonstrated basic understanding, but lacked the depth required for full marks.

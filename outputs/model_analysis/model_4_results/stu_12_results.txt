@@ -1,0 +1,68 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and completeness. Missing key aspects like "well-defined instructions" and the goal of "solving a problem."
+    * Finiteness: Correct explanation (1.5/1.5).
+    * Definiteness: Correct explanation (1.5/1.5).
+    * Input: Correct explanation (1.5/1.5).
+    * Output: Correct explanation (1.5/1.5).
+    * Effectiveness: Partially correct (0/1.5). The explanation is too simplistic. It should mention feasibility and execution within a reasonable time frame.  "Doable" is not a precise term in this context.
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correct code demonstrating functionality (1.5/2.5).
+    * Missing definition and formal syntax explanation.  Lacks the `const` keyword in the source parameter.  No output explanation provided.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correct code demonstrating functionality (1.5/2.5).
+    * Missing definition and formal syntax explanation. No output explanation provided.  Doesn't explicitly mention the exclusion of the null terminator.
+
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:**
+    * Correct and functional code (5/5).
+    * Minor issue: Prompt message "give name" could be more informative (e.g., "Enter your name:"). However, this does not warrant a deduction in marks.  Good use of `strlen` within the loop condition.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 15
+* **Percentage:** 75%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Log of Unmatched or Ambiguously Matched Responses:**
+
+* None
+
+
+**Areas where Student Answers Deviate from Expected Solutions:**
+
+* **Question 1:** The definition of an algorithm is incomplete. The explanation of "Effectiveness" is too simplistic.
+* **Question 2a:** Both parts lack formal definitions, syntax explanations, and detailed explanations of the provided code examples.  Missing `const` correctness in `strcpy` example.  No discussion of return values.
+
+
+**Overall Assessment:**
+
+The student demonstrates a basic understanding of algorithms and string handling functions in C. However, the answers lack depth and precision, particularly in theoretical explanations. The student should focus on providing more complete and formal definitions, explaining code examples thoroughly, and using precise terminology.  The programming skills demonstrated in 2b are good.

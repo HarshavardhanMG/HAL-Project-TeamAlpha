@@ -1,0 +1,79 @@
+question1 answer:
+Algorithm is a set of instructions to perform a task. It's like a step-by-step guide. Computers use algorithms to do things.
+
+Five important properties are:
+
+Must stop. Importance: To get result.
+
+Steps clear. Importance: To work correctly.
+
+Can take input. Importance: To work with different data.
+
+Must give output. Importance: To get answer.
+
+Steps doable. Importance: To be practical.
+
+question2 answer:
+2a.
+i. strcpy() - Copy string: Copies string.
+
+Syntax:
+strcpy(destination, source)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char a[] = "text";
+char b[10];
+strcpy(b, a);
+printf("%s", b);
+}
+
+Output:
+text
+
+ii. strlen() - Length string: Finds length.
+
+Syntax:
+strlen(string)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char s[] = "word";
+int l = strlen(s);
+printf("Length: %d", l);
+}
+
+Output:
+Length: 4
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char username[25];
+  printf("Enter name: ");
+  scanf("%s", username);
+
+  int index = 0;
+  do { // Using do-while loop, but still incorrect length method
+    printf("%c : %d\n", username[index], username[index]);
+    index++;
+  } while (username[index] != NULL); // Note: Incorrect NULL usage here
+  return 0;
+}
+
+
+Example Output:
+Enter name: Owen
+O : 79
+w : 119
+e : 101
+n : 110

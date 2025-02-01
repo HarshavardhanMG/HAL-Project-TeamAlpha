@@ -1,0 +1,89 @@
+question1 answer:
+An algorithm is defined as a step-by-step procedure or set of rules for solving a specific problem. It's like a detailed recipe that a computer follows to achieve a desired outcome. It's the core logic behind any computer program.
+
+Five Key Characteristics of Algorithms:
+
+Finiteness (Must Terminate): An algorithm must always terminate after a finite number of steps. Importance: This is crucial because an algorithm that never stops executing is useless in practical applications. Termination ensures that we get a result in a reasonable amount of time.
+
+Definiteness (Unambiguity): Each step of an algorithm must be precisely and unambiguously defined. There should be no room for interpretation or confusion in any instruction. Importance: Definiteness is essential for consistent and predictable execution of the algorithm, ensuring that it produces the same result every time for the same input.
+
+Input (Zero or More Inputs): An algorithm can take zero or more inputs. These inputs are the data or conditions that the algorithm operates on. Importance: Input makes algorithms flexible and adaptable to different scenarios. It allows a single algorithm to solve a range of problems by varying the input.
+
+Output (At Least One Output): An algorithm must produce at least one output. This output is the result or solution that the algorithm computes. Importance: Output is the primary goal of an algorithm. It's the reason for designing and executing the algorithm - to obtain a solution or result.
+
+Effectiveness (Feasibility): Every step in an algorithm must be effective, meaning that each operation is basic and feasible. It should be possible to carry out each step in a finite amount of time using available resources. Importance: Effectiveness ensures that the algorithm is practically executable and can be implemented using current technology and within reasonable time constraints.
+
+question2 answer:
+2a.
+i. strcpy() – String Copy Function: This function is designed to copy a string from one location in memory to another.
+
+Syntax:
+strcpy(destination, source);
+
+Example:
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char source_string[] = "HelloString";
+  char destination_string[20];
+  strcpy(destination_string, source_string);
+  printf("Copied string: %s\n", destination_string);
+  return 0;
+}
+
+
+Output:
+Copied string: HelloString
+
+ii. strlen() – String Length Function: This function is used to determine the length of a string. It counts the number of characters before the null terminator.
+
+Syntax:
+strlen(string);
+
+Example:
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char sample_string[] = "StringExample";
+  int string_length = strlen(sample_string);
+  printf("Length of string: %d\n", string_length);
+  return 0;
+}
+
+
+Output:
+Length of string: 13
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char name_str[50];
+
+  printf("Enter your name: ");
+  scanf("%s", name_str);
+
+  printf("ASCII values for your name:\n");
+  for(int index = 0; index < strlen(name_str); index++) {
+    printf("Character: %c, ASCII Code: %d\n", name_str[index], name_str[index]);
+  }
+
+  return 0;
+}
+
+
+Example Output:
+Enter your name: Sophia
+ASCII values for your name:
+Character: S, ASCII Code: 83
+Character: o, ASCII Code: 111
+Character: p, ASCII Code: 112
+Character: h, ASCII Code: 104
+Character: i, ASCII Code: 105
+Character: a, ASCII Code: 97

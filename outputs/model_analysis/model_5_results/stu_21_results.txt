@@ -1,0 +1,49 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics (10 marks)**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  Missing the crucial aspects of "well-defined instructions" and problem-solving.
+    * Characteristics: The student correctly identified all five characteristics and explained their importance adequately (5 * 1.5 = 7.5 marks).  While the explanations are brief, they capture the essence of each characteristic.
+
+**Question 2a: String Handling Functions (5 marks)**
+
+* **Maximum Marks:** 5 (2.5 for strcpy + 2.5 for strlen)
+* **Awarded Marks:** 2/5
+* **Feedback:**
+    * **strcpy():**
+        * Syntax: Incorrect syntax provided. Missing data types and incorrect assignment in the example (0.5/2.5 marks).  The student recognized the purpose but failed to demonstrate correct usage.
+        * Example: The example code has a syntax error and would not compile (0/1 mark).
+        * Output: The student correctly identified that the code would result in a compilation error(0.5/0.5 mark).
+    * **strlen():**
+        * Syntax: Incorrect syntax. Missing data type and `const` qualifier (0.5/2.5 marks).
+        * Example: The example code is functionally correct, demonstrating the basic usage of `strlen` (1/1 mark).
+        * Output: Correct output provided (0.5/0.5 mark).
+
+
+**Question 2b: ASCII Code Program (5 marks)**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 3/5
+* **Feedback:**
+    * The student's code compiles and runs, successfully taking a name as input and printing the ASCII values of its characters (3 marks).
+    * However, the code uses `sizeof(name_input)` instead of `strlen(name_input)` in the loop condition. This iterates through the entire array, including uninitialized memory after the input string, leading to printing garbage values (deduct 2 marks).  While the student addressed the null termination issue from a previous iteration (based on the comments), they introduced a new error with `sizeof`.
+
+
+**Total Score:**
+
+* **Total Marks:** 15
+* **Marks Obtained:** 12.5
+* **Percentage:** 83.33%
+
+
+**Flagged Responses for Manual Review:**
+
+* None.  All answers could be confidently matched to the corresponding questions based on content.
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and their characteristics. However, they struggle with the syntax and proper implementation of string handling functions in C.  The ASCII code program, while functional, contains a significant flaw in using `sizeof` instead of `strlen`, leading to incorrect output for longer inputs or inputs shorter than the declared array size.  Further instruction on C programming fundamentals, particularly string manipulation and memory management, is recommended.

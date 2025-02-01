@@ -1,0 +1,60 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and important elements like "well-defined instructions" and the goal of "solving a problem."  It's too simplistic.
+    * Finiteness: Correct explanation and importance (1.5/1.5).
+    * Definiteness: Correct explanation and importance (1.5/1.5).
+    * Input: Correct explanation and importance (1.5/1.5).
+    * Output: Correct explanation and importance (1.5/1.5).
+    * Effectiveness: Correct explanation, but the importance could be more specific (1/1.5).  Instead of "possible to execute," it should relate to efficiency and feasibility within constraints.  
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Definition: Missing a proper definition of the function's purpose.
+    * Syntax: Incorrect. Missing data types and `const` for the source.
+    * Example: Correct functionality but uses `void main()` which is non-standard. Should be `int main()`.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Definition:  Adequate.
+    * Syntax: Incorrect. Missing data type and `const` for the input string.
+    * Example: Correct functionality but uses `void main()` which is non-standard. Should be `int main()`.
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * The program functions correctly and produces the desired output.
+    * Minor deduction (0.5) for not limiting the input string length in `scanf`, which could lead to buffer overflow.  Using `scanf("%69s", name_input);` would be safer.  Good use of a `while` loop instead of a `for` loop.
+
+
+
+**Total Score:**
+
+* **Maximum Marks:** 20
+* **Awarded Marks:** 14
+* **Percentage:** 70%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and string functions. However, the answers lack precision and depth in definitions and syntax. The student needs to improve their understanding of C programming standards (using `int main()` and safe input practices). The C program for ASCII conversion is well-implemented, demonstrating practical coding skills.  The student should focus on providing more complete and accurate definitions and pay closer attention to syntax details.

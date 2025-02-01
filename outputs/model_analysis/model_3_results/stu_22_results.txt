@@ -1,0 +1,40 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm, capturing the core concept of a set of rules for problem-solving.  The explanations for each characteristic were well-articulated and demonstrated a clear understanding. A slight deduction of 0.5 marks for not explicitly mentioning the structured nature of algorithms in the definition, as highlighted in the answer key's "precise, efficient, and structured" phrase.  While "step-by-step instruction set" implies structure,  the answer key's phrasing is more academically rigorous.
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student correctly explained the function's purpose and provided a working example. However, the syntax provided is missing the data types (char*), and `void main()` is not the standard for modern C.  `int main()` is preferred.  The example is functional, but lacks the clarity and best practices demonstrated in the answer key (e.g., using `const char*` for the source).
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** Similar to `strcpy()`, the student understood the function's purpose and provided a working example. However, the syntax lacks the return type (`size_t`) and the `const char*` for the input string. `void main()` should be `int main()`.
+
+
+**Question 2b: C program for ASCII codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program is correct and functions as expected. It accurately reads the name from the keyboard and prints the corresponding ASCII values.  The use of `int k` as a loop counter is acceptable, and the code is well-formatted. The example output provided is also consistent with the program's logic.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 18.5
+* **Percentage:** 92.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Summary:** The student demonstrated a good understanding of algorithms and their characteristics.  While the code for string functions was functional,  attention to detail regarding syntax and best practices is needed. The student excelled in the programming task, showcasing competency in C programming fundamentals.  The overall performance is strong.

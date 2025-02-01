@@ -1,0 +1,43 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm, capturing the core concept of a set of rules for problem-solving. The explanations for each characteristic were accurate and well-articulated, demonstrating a clear understanding.  A slight deduction of 0.5 marks for not explicitly mentioning the structured nature of algorithms in the definition as the answer key did.  The student's definition focused more on the procedural aspect.
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student correctly explained the function's purpose and provided a working example. However, the syntax provided was simplified and lacked the return type (char*) and the `const` qualifier for the source string.  Minor deduction for inaccurate syntax. Using `void main()` is also discouraged; `int main()` is preferred.
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** Similar to strcpy(), the student explained the purpose and provided a working example. The syntax lacked the return type (size_t). Using `void main()` is also discouraged. Minor deduction for inaccurate syntax.
+
+**Question 2b: C program for ASCII codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program correctly reads the name from the keyboard, iterates through each character, and prints the corresponding ASCII value. The code is well-structured, uses appropriate variable names, and includes necessary headers. No errors found.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 18.5
+* **Percentage:** 92.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All answers were clearly matched to the corresponding questions based on content.  While minor syntax issues existed in 2a, the code examples were functional and demonstrated understanding.
+
+
+
+**Summary:**
+
+The student demonstrated a good understanding of algorithms and their characteristics. The C programming skills are also evident in the correctly implemented program for ASCII code generation. Minor deductions were made for inaccuracies in the syntax descriptions of string functions. Overall, a strong performance on the exam.

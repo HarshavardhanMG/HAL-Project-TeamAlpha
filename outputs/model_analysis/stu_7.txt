@@ -1,0 +1,60 @@
+question1 answer:
+An algorithm is like a detailed plan on how to do something. It's a set of instructions that a computer can use to solve a problem.
+Here are 5 important characteristics of an algorithm:
+
+Finiteness: An algorithm should have a clear start and end. It should not just continue infinitely.
+
+Definiteness: Every step in the algorithm must be well-defined and there should not be any vagueness. It has to be very clear, so that computer can follow it.
+
+Input: Algorithm takes some input to process, this is very important for algorithm.
+
+Output: Every algorithm must produce some kind of result or outcome.
+
+Effectiveness: Every steps in algorithm should be simple and easily doable. It should not be very difficult.
+
+question2 answer:
+a)
+i. strcpy(): copies a string to another string.
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char str1[20] = "test";
+char str2[20];
+strcpy(str2,str1);
+printf("%s",str2);
+}
+
+
+ii. strlen(): gets string length.
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char str1[20] = "test";
+int len = strlen(str1);
+printf("%d",len);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char name[50];
+    int i;
+    printf("Enter name: ");
+    scanf("%s", name);
+    printf("ASCII values:\n");
+    for(i = 0; i < strlen(name); i++) {
+        printf("%c: %d\n", name[i], name[i]);
+    }
+    return 0;
+}
+content_copy
+download
+Use code with caution.
+C

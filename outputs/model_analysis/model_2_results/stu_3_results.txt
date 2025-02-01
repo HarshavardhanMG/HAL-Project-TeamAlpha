@@ -1,0 +1,57 @@
+**Evaluation of Student Answers:**
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified definition, lacking the precision and formality of the answer key. (1.5/2.5 marks awarded)
+    * Finiteness: Correct explanation. (1.5/1.5 marks awarded)
+    * Definiteness: Correct explanation. (1.5/1.5 marks awarded)
+    * Input: Correct explanation with a relevant example. (1.5/1.5 marks awarded)
+    * Output: Correct explanation. (1.5/1.5 marks awarded)
+    * Effectiveness: Correct explanation, but could be more detailed by mentioning computational feasibility. (1.5/1.5 marks awarded)
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Provided a correct basic explanation and a functional example.
+    * Missing formal definition, syntax declaration, and explanation of the header files.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** 
+    * Provided a correct basic explanation and a functional example.
+    * Missing formal definition, syntax declaration (including return type), and explanation of the header files.  
+
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * The program functions correctly and produces the desired output.
+    * Minor deduction for not using a more robust input method (e.g., `fgets` instead of `scanf("%s", n);` to prevent potential buffer overflow).  `scanf` with `%s` will stop reading at the first whitespace, which might not capture the full name if it contains spaces.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 16
+* **Percentage:** 80%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Summary:**
+
+The student demonstrates a good understanding of the fundamental concepts of algorithms and string handling functions. The provided C program is functional. However, the answers lack the formal rigor and completeness expected at a higher academic level. The student should focus on providing more precise definitions, including proper syntax and header file declarations, and using safer input methods in C programming.  More detailed explanations of the characteristics of algorithms, going beyond basic descriptions, would also improve the answers.

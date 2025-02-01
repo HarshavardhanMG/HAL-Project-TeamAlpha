@@ -1,0 +1,40 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  While it lacks the formal terminology of the answer key, it conveys the core concept.  -0.5 for lacking precision.
+    * Characteristics: The student correctly identified all five characteristics using simpler language. While the explanations are less formal and detailed than the answer key, they demonstrate understanding.  Full marks awarded for each characteristic (1.5/1.5 each).  The student's use of analogies to cooking effectively illustrates the concepts.
+
+**Question 2a. Explain the following string handling functions with examples. i. strcpy() - syntax and example ii. strlen()- syntax and example**
+
+* **Maximum Marks:** 5 (2.5 for strcpy() + 2.5 for strlen())
+* **Awarded Marks:** 3
+* **Feedback:**
+    * **strcpy():** The explanation is correct, but the example code contains an error. `char str1 = "Hello";` should be `char str1[] = "Hello";`. The output is coincidentally correct due to the short string length. (1.5/2.5 marks)  -1 for incorrect code.
+    * **strlen():** The explanation is correct, but the example code contains a similar error: `char text = "Computer";` should be `char text[] = "Computer";`. (1.5/2.5 marks) -1 for incorrect code.  The syntax provided is also missing the data type.
+
+
+**Question 2b. Write a C program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:**
+    * The program logic is correct, and the example output is accurate. However, the code uses an undefined function `length(myname)`. It should be `strlen(myname)`. (4/5 marks) -1 for using an incorrect function name.  The student should include `#include <string.h>` for proper usage of `strlen()`.
+
+
+**Total Score:** 14.5 / 20
+
+**Percentage:** 72.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All responses were confidently matched based on content.  While there were errors in the code for 2a, the context makes it clear which question the student is attempting to answer.
+
+
+**Summary:**
+
+The student demonstrates a good understanding of the fundamental concepts of algorithms and string handling functions. However, the student needs to pay closer attention to the syntax and details when writing C code. The student's use of informal language and analogies, while helpful for understanding, should be refined towards more precise technical language as they progress.  The missing `#include <string.h>` in 2b should be addressed as it's crucial for correct compilation and functionality.

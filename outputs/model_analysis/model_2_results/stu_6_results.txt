@@ -1,0 +1,54 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks). More formal language would be preferred.
+    * Finiteness: Correct explanation and importance (1.5/1.5 marks).
+    * Definiteness: The student's explanation focuses on simplicity instead of clarity and unambiguity. Partially correct (1/1.5 marks).  Should emphasize that each step must be clearly defined, leaving no room for interpretation.
+    * Input: Correct explanation and importance (1.5/1.5 marks).
+    * Output: Correct explanation and importance (1.5/1.5 marks).
+    * Effectiveness: Correct explanation and importance (1.5/1.5 marks).
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * The student provided a correct, concise explanation and a working example. However, the syntax is missing (deduct 0.5 marks). Including the `return 0;` in the example is good practice but not strictly required for this question.  The example lacks a `printf` statement explaining what's happening (though the output is implied).
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * The student provided a correct, concise explanation and a working example. However, the syntax is missing (deduct 0.5 marks).  The example lacks a `printf` statement explaining that the output is the length (though the output is implied).
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:**
+    * The student provided a fully functional and correct C program that meets all requirements. Good use of `strlen` within the loop.  Minor formatting issues (lowercase "enter your name") are not significant enough to deduct marks.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 16.5
+* **Percentage:** 82.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Summary:**
+
+The student demonstrates a good understanding of algorithms and their characteristics, although the explanation of "definiteness" could be improved. The student also shows proficiency in C programming by providing a correct solution for the ASCII program.  Minor deductions were made for missing syntax declarations in the string function explanations and a slightly less formal definition of "algorithm." Overall, a solid performance.

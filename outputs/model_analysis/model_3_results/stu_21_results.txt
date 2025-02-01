@@ -1,0 +1,63 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2.5/2.5).
+    * Characteristics:
+        * Finiteness: Correctly identified and explained with importance (1.5/1.5).
+        * Definiteness: Correctly identified and explained with importance (1.5/1.5).
+        * Input: Correctly identified and explained importance.  (1.5/1.5).
+        * Output: Correctly identified and explained importance.  (1.5/1.5).
+        * Effectiveness: Correctly identified and explained importance. (1.5/1.5)
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1
+* **Feedback:**
+    * Definition and general purpose of `strcpy()` are correct.
+    * Syntax provided is simplified and lacks data types (char*).
+    * The example code has a significant error: `strcpy(s2 = s1);` is incorrect.  Assignment within `strcpy` is invalid and will result in a compilation error.  Correct syntax: `strcpy(s2, s1);`
+    * Output correctly identifies the compilation error but doesn't provide the correct implementation.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Definition and general purpose of `strlen()` are correct.
+    * Syntax provided lacks data types (size_t and const char*).
+    * Example code is functionally correct and demonstrates the use of `strlen()`. 
+    * Using `void main()` is discouraged; `int main()` is preferred.
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 3
+* **Feedback:**
+    * The program correctly reads the name using `scanf`.
+    * The program prints the ASCII values of the entered name.
+    * **Major Issue:** The loop condition still uses `sizeof(name_input)` instead of `strlen(name_input)`. This iterates over the entire array, including uninitialized memory, leading to printing garbage values after the name.  This is a significant logical error.
+    * No check for buffer overflow in `scanf` which is a good practice to prevent potential security vulnerabilities. 
+
+
+**Total Score:**
+
+* **Total Marks:** 15.5 / 20
+* **Percentage:** 77.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None.  All answers could be confidently matched to their corresponding questions based on content.
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and their properties. However, there are significant errors in the coding part, particularly in the use of `strcpy()` and the persistent incorrect usage of `sizeof` instead of `strlen` in the ASCII program.  The student needs to review string handling functions in C and understand the difference between `sizeof` and `strlen`.  Attention to detail and careful code review are recommended.

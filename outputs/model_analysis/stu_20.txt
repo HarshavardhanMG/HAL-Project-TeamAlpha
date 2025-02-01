@@ -1,0 +1,75 @@
+question1 answer:
+Algorithm is a set of instructions to solve a problem. It's like a step-by-step process that a computer follows. It needs to be well-defined so the computer knows exactly what to do.
+
+Characteristics of Algorithm:
+
+Termination: Algorithm should stop after some steps. If it doesn't stop, it will run forever and not give any answer. This is important because we need the algorithm to finish and give us the result in a reasonable time.
+
+Unambiguous: Each step in the algorithm must be clear and not confusing. There should be only one way to understand each step. This is important so that the computer does the same thing every time and we get consistent results.
+
+Input: An algorithm can take input. Input is the data that the algorithm works on. This is important because it allows the algorithm to work with different data and solve different problems.
+
+Output: Algorithm must produce some output. Output is the result of the algorithm. This is important because the purpose of an algorithm is to solve a problem and give us the answer, which is the output.
+
+Efficiency: Algorithm should be efficient. This means it should not take too much time or memory to run. This is important because we want algorithms to be fast and use resources wisely.
+
+question2 answer:
+2a.
+i. strcpy() - String Copy: This function copies one string to another.
+
+Syntax:
+strcpy(destination, source);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char s1[] = "Good";
+char s2[10];
+strcpy(s2, s1);
+printf("String 2 is: %s", s2);
+}
+
+Output:
+String 2 is: Good
+
+ii. strlen() - String Length: This function finds the length of a string.
+
+Syntax:
+strlen(string_name);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char my_string[] = "Hello World";
+int length = strlen(my_string);
+printf("Length of string is: %d", length);
+}
+
+Output:
+Length of string is: 11
+
+2b.
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char name[30];
+printf("Enter your name: ");
+scanf("%s", &name);
+
+for(int i=0; i<=strlen(name); i++) {
+printf("%c ASCII value is %d\n", name[i], name[i]);
+}
+return 0;
+}
+
+Example Output:
+Enter your name: Mia
+M ASCII value is 77
+i ASCII value is 105
+a ASCII value is 97
+ASCII value is 0

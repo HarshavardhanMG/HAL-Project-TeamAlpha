@@ -1,0 +1,52 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4/10
+* **Feedback:**
+    * The definition of the algorithm is simplistic and lacks precision. It doesn't mention key aspects like finiteness, well-defined instructions, and problem-solving.  (1/2.5 awarded)
+    * The student identified the five characteristics but provided overly simplistic explanations for their importance. The explanations lack depth and do not clearly articulate the crucial role each characteristic plays in algorithm design and execution. (5 * 0.6/1.5 awarded)
+
+
+**Question 2a(i): Explain strcpy() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5 / 2.5
+* **Feedback:**
+    * The student provided a basic explanation and a working example.
+    * However, the syntax is missing the data types (char*), and the example uses `void main()` which is not standard C practice. `int main()` should be used. The const correctness of the source string in the syntax is also missing.
+
+
+**Question 2a(ii): Explain strlen() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5 / 2.5
+* **Feedback:**
+    * The student provided a basic explanation and a working example.
+    *  Similar to `strcpy()`, the syntax lacks the return type `size_t` and  the `const` qualifier for the input string.  The example uses `void main()` instead of `int main()`.
+
+
+**Question 2b: Write a C program to read a name and output its ASCII codes.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5 / 5
+* **Feedback:**
+    * The student's program correctly reads the name and prints the ASCII values.
+    * The program uses a `while` loop instead of the more common `for` loop with `strlen()`, but it functions correctly. Good use of a descriptive variable name `input_name`.  Slight deduction for not limiting the input string length in scanf which could lead to buffer overflow.
+
+
+
+**Total Score:**  11.5 / 20
+
+**Percentage:** 57.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Log of Unmatched or Ambiguously Matched Responses:** None
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and string functions but lacks precision and depth in their explanations. The programming skills are evident in the final program, though minor improvements are needed in terms of standard C practices and input validation.  The student needs to focus on providing more detailed and accurate explanations, adhering to standard C programming conventions, and paying close attention to function syntax and data types.

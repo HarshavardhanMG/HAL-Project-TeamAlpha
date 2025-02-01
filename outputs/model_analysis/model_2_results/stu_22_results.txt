@@ -1,0 +1,42 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm, capturing the core concepts of rules, problem-solving, and computer implementation.  The explanations for each characteristic were accurate and well-detailed, demonstrating a strong understanding. A slight deduction of 0.5 marks for not explicitly mentioning "finite set" in the definition, although the concept of finiteness was clearly explained in the characteristic section.
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student correctly explained the purpose and provided the syntax of the `strcpy()` function. The example code functioned correctly and demonstrated the string copying operation. However, the student used `void main()` which is not standard C. `int main()` should be used.  Minor deduction for not explicitly mentioning that the source string must be null-terminated and for using non-standard `void main()`.  Also, the syntax provided lacked the data types (char*).
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student correctly explained the purpose and provided the syntax of the `strlen()` function. The example code functioned correctly and demonstrated the calculation of string length. However, the syntax provided lacked the data type (size_t) for the return value and the parameter type (const char*). Minor deduction for this incompleteness in the syntax and for using non-standard `void main()`.
+
+**Question 2b: C program for ASCII codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program correctly reads a name from the keyboard and outputs the corresponding ASCII codes for each character. The code is well-structured, efficient, and uses appropriate functions like `strlen()` and `printf()`. No errors found.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 18.5
+* **Percentage:** 92.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Summary:**
+
+The student demonstrated a good understanding of algorithms and their characteristics. The student also showed proficiency in C programming, specifically in string handling. Minor deductions were made for lacking precision in syntax descriptions for string functions and for using non-standard `void main()`. Overall, a strong performance on the exam.  The student might benefit from a review of standard C syntax conventions.

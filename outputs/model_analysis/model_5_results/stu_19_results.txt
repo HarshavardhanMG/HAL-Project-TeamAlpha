@@ -1,0 +1,47 @@
+## Evaluation of Student Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 8.5
+* **Feedback:** The definition of the algorithm is less precise than the answer key. It lacks mentioning "well-defined instructions" and the goal of "solving a problem."  All characteristics are correctly identified and explained.  Deduct 1.5 marks for the incomplete definition.
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student provided a correct example and syntax, but the definition lacks the detail of the answer key (copying the content from source to destination). Deduct 0.5 marks for the less precise definition.
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student provided a correct example and implementation. However, the syntax is missing the data type (size_t) and the `const char *str` part. The definition lacks the detail of excluding the null character. Deduct 0.5 marks for the incomplete syntax and definition.
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 2
+* **Feedback:**  The student attempted the program correctly but used a non-existent function `string_length()` instead of `strlen()`. This results in a compilation error.  The logic of iterating through the string and printing ASCII values is correct. Award 2 marks for the correct logic and understanding of the problem. Deduct 3 marks for the compilation error due to incorrect function usage.
+
+
+**Summary:**
+
+* **Total Score:** 23 / 25
+* **Percentage:** 92%
+
+**Flagged Responses for Manual Review:**
+
+* None.  All answers were clearly matched to the corresponding questions based on content.
+
+
+**Log of Unmatched or Ambiguously Matched Responses:**
+
+* None.
+
+
+**Areas where Student Answers Deviate from Expected Solutions:**
+
+* **Question 1:** The definition of the algorithm is not as comprehensive as the answer key.
+* **Question 2a(i) & 2a(ii):** Definitions and syntax for string functions lack some details.
+* **Question 2b:**  Significant error in using a non-existent function, leading to compilation failure.  While the core logic is correct, the inability to compile demonstrates a lack of understanding of standard C library functions.  This requires attention and further learning on the student's part.

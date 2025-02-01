@@ -1,0 +1,41 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  Lacks the precision of the reference answer but conveys the core concept.
+    * Finiteness: Correctly explained (1.5/1.5 marks).
+    * Definiteness: Correctly explained (1.5/1.5 marks).
+    * Input: Correctly explained (1.5/1.5 marks).
+    * Output: Correctly explained (1.5/1.5 marks).
+    * Effectiveness: The student's explanation uses a less precise term ("can be done") compared to "feasible" in the answer key. While the example helps clarify the intent, it doesn't fully capture the nuance of feasibility in terms of computational complexity.  (1/1.5 marks)
+
+
+**Question 2a: Explain `strcpy()` and `strlen()` with examples.**
+
+* **Maximum Marks:** 5 (2.5 for each function)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * `strcpy()`: The student provided a correct explanation and a functional code example. However, the explanation lacks the formal definition and syntax details present in the answer key. (2/2.5 marks). Missing `return 0;` and output in the example, but code is functional.
+    * `strlen()`: The student provided a correct explanation and a functional code example. Similar to `strcpy()`, the explanation is less formal and lacks explicit syntax. (2/2.5 marks). Missing `return 0;` and output in the example, but code is functional.
+
+
+**Question 2b: Write a C program to output ASCII codes of a name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student provided a correct and complete C program that accurately fulfills the requirements of the question.  The code compiles and runs without errors, producing the expected output.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 16.5
+* **Percentage:** 82.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Summary:** The student demonstrates a good understanding of the fundamental concepts of algorithms and string handling functions in C. The answers are generally correct, but often lack the formal rigor and precision expected in a technical exam. The student could benefit from focusing on providing more complete definitions and including formal syntax details in their explanations. The programming skills are well-demonstrated by the correctly implemented C program.  The student's informal language ("like a recipe", "play with") in Question 1 should be noted, but in this case, didn't significantly detract from the understanding demonstrated.

@@ -1,0 +1,44 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:** 
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks). It lacks the precision of the reference answer but conveys the core concept.
+    * Characteristics: The student correctly identified all five characteristics and explained them adequately. However, the explanations lack the depth and specific details present in the reference answer, especially regarding the impact of each characteristic (1 mark deducted per characteristic explanation, resulting in a total deduction of 0.5*5=2.5).  For example, for "Finiteness", the student mentions stopping "after some time," which is less precise than "finite number of steps."  Similar slight inaccuracies exist in other explanations.
+
+
+**Question 2a (i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * The student provided a working example and mentioned the function's purpose correctly. However, the formal definition and syntax are missing. The explanation lacks the level of detail expected in the reference answer (1 mark deducted for lack of definition and syntax).
+
+**Question 2a (ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+     * Similar to strcpy(), the student provided a working example and stated the purpose.  However, the formal definition and syntax are missing (1 mark deducted for lack of definition and syntax).
+
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program is correct, functional, and well-structured. It accurately reads the name, iterates through each character, and prints the corresponding ASCII value.  No errors detected.
+
+
+**Summary:**
+
+* **Total Marks:** 21.5 / 25
+* **Percentage:** 86%
+
+**Flagged Responses for Manual Review:**  None.  All answers were clearly matched to their corresponding questions based on content.
+
+
+**Overall Feedback:**
+
+The student demonstrates a good understanding of the fundamental concepts of algorithms and string handling functions in C. However, the answers lack the formal rigor and precision expected at a higher level. The student should focus on providing complete definitions, including formal syntax where applicable, and elaborating on the importance and implications of concepts with greater detail.  The programming skills demonstrated in 2b are commendable.

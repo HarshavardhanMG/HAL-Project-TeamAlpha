@@ -1,0 +1,75 @@
+question1 answer:
+Algorithm is a set of steps to solve a problem. It's like a procedure. We use algorithms in computers to tell them what to do.
+
+Five things that are important for an algorithm:
+
+Finite: It has to stop. If it doesn't stop, it's not a good algorithm. Importance: So it gives an answer eventually.
+
+Clear: Steps should be clear. No confusion. Importance: So computer understands and does it right.
+
+Input: Can have input. Importance: To work with different data.
+
+Output: Must give output. Importance: To get the answer.
+
+Possible: Steps must be possible to do. Importance: So it can be done in real life.
+
+question2 answer:
+2a.
+i. strcpy() - Copies string: Copies one string to another place.
+
+Syntax:
+strcpy(destination, source)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+main() {
+char a[] = "apple";
+char b[10];
+strcpy(b, a);
+printf(b);
+}
+
+Output:
+apple
+
+ii. strlen() - Length of string: Counts how many characters in string.
+
+Syntax:
+strlen(string)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+main() {
+char s[] = "banana";
+int l = strlen(s);
+printf("Length = %d", l);
+}
+
+Output:
+Length = 6
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char name[20];
+  printf("Enter name: ");
+  scanf("%s", name);
+
+  for (int i = 0; i < name.length(); i++) { // Note: incorrect way to get length
+    printf("%c is %d\n", name[i], name[i]);
+  }
+  return 0;
+}
+
+
+Example Output:
+Enter name: Leo
+L is 76
+e is 101
+o is 111
+Error during compilation because of name.length()

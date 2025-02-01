@@ -1,0 +1,81 @@
+question1 answer:
+An algorithm is a process or set of rules to be followed in calculations or other problem-solving operations, especially by a computer. It is basically a detailed step-by-step instruction set or formula for solving a problem.
+
+Five Important Characteristics of an Algorithm:
+
+Finiteness: An algorithm must terminate after a finite number of steps. This is important because if an algorithm runs forever, it is not practical and cannot solve any problem in a real-world scenario. We need algorithms to finish in a limited amount of time.
+
+Definiteness: Each step of an algorithm must be precisely defined; the actions to be carried out at each step must be unambiguously specified. This means there should be no confusion or vagueness in any instruction. This ensures that the algorithm is executed correctly every time.
+
+Input: An algorithm takes zero or more inputs. These inputs are the quantities that are given to the algorithm initially before it begins execution, or are dynamically supplied to the algorithm as it runs. Input is essential for algorithms to process data and solve problems based on different conditions.
+
+Output: An algorithm produces at least one output. This is the result or solution obtained after the algorithm is executed. Without output, we cannot know the result of the algorithm and it would be useless. The output is the main goal of running an algorithm.
+
+Effectiveness: An algorithm is said to be effective if each step is not only definite but also feasible, i.e., it can be carried out. This means each operation must be basic enough that it can be done in principle by a person using pencil and paper in a finite amount of time. Effectiveness ensures that the algorithm is practically executable and solves the problem efficiently.
+
+question2 answer:
+2a.
+i. strcpy() - String Copy: It is used to copy one string to another string variable.
+
+Syntax:
+strcpy(destination_string, source_string);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+char str1[10] = "Hello";
+char str2[10];
+strcpy(str2, str1);
+printf("The copied string is : %s", str2);
+}
+
+Output:
+The copied string is : Hello
+
+ii. strlen() - String Length: This function calculates the length of a given string.
+
+Syntax:
+strlen(string_variable);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+void main()
+{
+char string[] = "Programming in C";
+int len = strlen(string);
+printf("Length of the string : %d", len);
+}
+
+Output:
+Length of the string : 16
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char your_name[50];
+
+  printf("Enter your name please: ");
+  scanf("%s", your_name);
+
+  printf("ASCII codes for your name are:\n");
+  for (int k = 0; k < strlen(your_name); k++) {
+    printf("%c - %d\n", your_name[k], your_name[k]);
+  }
+
+  return 0;
+}
+
+
+Example Output:
+Enter your name please: Liam
+ASCII codes for your name are:
+L - 76
+i - 105
+a - 97
+m - 109

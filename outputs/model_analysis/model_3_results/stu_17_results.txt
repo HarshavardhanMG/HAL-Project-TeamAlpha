@@ -1,0 +1,55 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and important elements like "well-defined instructions" and the goal of "solving a problem."  While the student conveys a basic understanding, it's not a formal definition.
+    * Finiteness: Correct understanding but explanation lacks the term "infinite loop." (1/1.5)
+    * Definiteness: Correct understanding, well explained. (1.5/1.5)
+    * Input: Correct understanding, well explained. (1.5/1.5)
+    * Output: Correct understanding, well explained. (1.5/1.5)
+    * Effectiveness:  The student uses "doable" instead of "feasible." While conveying the meaning, using precise terminology is crucial. (0/1.5)
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** 
+    * Correct syntax and a functional example provided. However, the definition lacks detail. It should mention that strcpy copies the content including the null terminator. Also `void main()` is incorrect, should be `int main()`.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1
+* **Feedback:**
+    * Definition is overly simplistic. Syntax is incorrect (missing data type and `const char*`). The example code has a major error: using `char` instead of `char[]` to declare a string.  The student identifies that there will be an error/warning, but doesn't fully grasp the reason.
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * The student provides a correct and functional program that accurately calculates and prints the ASCII values of the entered name. The code uses a `while` loop with a null terminator check, which is an acceptable alternative to using `strlen()` in the `for` loop of the model answer.  Minor deduction for not explicitly prompting the user that input is limited by the size of the array.  (e.g., "Enter name (up to 19 characters): ").
+
+
+
+## Overall Score:
+
+* **Total Marks:** 20
+* **Marks Obtained:** 12
+* **Percentage:** 60%
+
+
+## Flagged Responses for Manual Review:
+
+* None. All answers could be clearly matched to the corresponding questions based on content.  
+
+
+## Summary:
+
+The student demonstrates a basic understanding of algorithms and their characteristics but needs to improve the precision and formality of definitions. The student shows proficiency in basic C programming, evidenced by the correct implementation of the ASCII code program. However, a deeper understanding of string handling functions like `strcpy()` and `strlen()`, including their proper syntax and usage, is required.  The student also needs to focus on using precise technical terminology in their explanations.

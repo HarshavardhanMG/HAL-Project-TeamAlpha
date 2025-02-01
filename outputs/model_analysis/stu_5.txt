@@ -1,0 +1,58 @@
+question1 answer:
+An algorithm is basically a set of steps that we use to solve problems. We use this to tell computers what to do, it has to be in clear language.
+Here are five important things that an algorithm should have:
+
+It has to finish. Its should not keep running forever. The process should stop after doing something, and algorithm should not be in a forever loop.
+
+Every step should be clear. There should be no confusion in any steps of the process.
+
+Algorithm may need inputs, it might be 0 or more.
+
+Algorithm must produce some output. This is the goal of the algorithm to produce some final result.
+
+Each steps of algorithm should be something that can be done. It should be simple and it should work.
+
+question2 answer:
+a)
+i. strcpy(): copy string to other variable
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char str1[20] = "abc";
+char str2[20];
+strcpy(str2,str1);
+printf("%s",str2);
+}
+
+
+ii. strlen(): length of string
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char str1[20] = "abc";
+int len = strlen(str1);
+printf("%d",len);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char name[50];
+int i;
+printf("enter your name : ");
+scanf("%s",name);
+printf("ASCII: \n");
+for(i=0;i<strlen(name);i++)
+{
+printf("%c: %d\n",name[i],name[i]);
+}
+return 0;
+}

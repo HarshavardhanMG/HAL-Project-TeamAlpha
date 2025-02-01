@@ -1,0 +1,46 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for each characteristic)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: The definition provided is simplistic and lacks the required formality. It doesn't mention crucial aspects like well-defined instructions, problem-solving, precision, efficiency, and structure. (1/2.5 marks awarded)
+    * Characteristics:  The student correctly identifies the five characteristics but provides overly simplified explanations lacking depth and precision.  The explanations don't fully capture the essence of each characteristic's importance in algorithm design.  (1 mark awarded for each characteristic).
+
+
+**Question 2a(i): Explain strcpy() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * The student provides a very basic explanation and a correct, functional example. However, the explanation lacks a formal definition and fails to mention key details like the null terminator being copied, potential buffer overflow issues, and the return value of the function. The example is minimal and doesn't demonstrate good coding practices (e.g., error checking).
+
+**Question 2a(ii): Explain strlen() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+     * Similar to `strcpy()`, the explanation is overly simplistic and lacks a formal definition. It doesn't explicitly state that the null terminator is not counted. The example is functional but minimal.
+
+**Question 2b: Write a C program to read a name and output its ASCII codes.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:**
+    * The student provides a fully functional and correct C program that meets the requirements of the question. The code is well-structured, reads the input correctly, and accurately outputs the ASCII values for each character in the name.  Good use of `strlen()` in the loop condition.
+
+
+**Summary:**
+
+* **Total Score:** 15 / 20
+* **Percentage:** 75%
+
+**Flagged Responses for Manual Review:**
+
+* None. All answers could be confidently matched to their corresponding questions based on content.
+
+
+**Overall Feedback:**
+
+The student demonstrates a basic understanding of algorithms and string manipulation functions in C. However, the answers lack depth and precision, especially in the theoretical explanations. The student should focus on providing more formal definitions, including essential details, and elaborating on the importance of concepts. While the programming skills are evident in the C program,  improving code quality and incorporating best practices (e.g., error handling, comments) would be beneficial. The student needs to work on providing more comprehensive and detailed explanations for full credit in future exams.

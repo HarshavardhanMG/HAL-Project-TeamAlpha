@@ -1,0 +1,45 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 8.5
+* **Feedback:** The student provided a good definition of an algorithm. The explanations for each characteristic were generally accurate, but lacked the concise precision of the answer key. Specifically, the explanation for "Finiteness" introduced the extraneous and slightly inaccurate concept of it being "dangerous" for a computer to run an infinite loop. While conceptually related to resource exhaustion, the phrasing is not ideal.  The explanation for "Effectiveness" could be improved by focusing on feasibility and simplicity of individual steps rather than overall complexity.  
+
+
+**Question 2a(i): Explain strcpy() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student explained the function of `strcpy()` correctly and provided the correct syntax. However, the example code lacks `return 0;`  and a proper `printf` statement explaining the output. While the code would compile and function correctly, best practices are missing.
+
+
+**Question 2a(ii): Explain strlen() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** Similar to `strcpy()`, the explanation and syntax are correct. The example code lacks `return 0;` and context for the output using `printf`.
+
+
+**Question 2b: Write a C program to read a name and output its ASCII codes.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program is correct, well-structured, and produces the desired output.  It correctly reads the name, iterates through each character, and prints the ASCII value.
+
+
+## Score Summary:
+
+* **Total Score:** 23 / 25
+* **Percentage:** 92%
+
+
+## Flagged Responses for Manual Review:
+
+* None. All questions were confidently matched and evaluated.  While some minor deductions were made for less precise language or missing best practices in code examples, no answers were ambiguous or required manual intervention.
+
+
+## Areas for Improvement:
+
+* **Precision in Explanations:** Encourage the student to use more precise and concise language when explaining technical concepts. Avoid informal terms like "dangerous" in formal technical explanations.
+* **Complete Code Examples:** Emphasize the importance of including `return 0;` in `main()` and using `printf` to provide context for outputs in code examples, even if the core logic is correct. This promotes good coding habits.  Consider deducting a small amount for each instance of missing elements in future evaluations to reinforce good practice.

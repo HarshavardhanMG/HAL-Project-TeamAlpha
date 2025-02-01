@@ -1,0 +1,74 @@
+## Evaluation of Student Answers
+
+Here's a detailed evaluation of the student's answers:
+
+**Question 1: Define Algorithm and List Five Characteristics (10 marks total)**
+
+* **Definition of Algorithm (2.5 marks):**
+    * Awarded Marks: 2
+    * Feedback: The student provided a reasonable definition, capturing the essential aspects of an algorithm as a step-by-step procedure for solving problems. However, it lacks the precision of the answer key's definition regarding "well-defined instructions" and the emphasis on efficiency and structure.
+
+* **Five Characteristics (1.5 marks each, 7.5 marks total):**
+    * **Finiteness:**
+        * Awarded Marks: 1.5
+        * Feedback:  Correct explanation and importance.
+    * **Definiteness:**
+        * Awarded Marks: 1.5
+        * Feedback: Correct explanation and importance.
+    * **Input:**
+        * Awarded Marks: 1.5
+        * Feedback: Correct explanation and importance.
+    * **Output:**
+        * Awarded Marks: 1.5
+        * Feedback: Correct explanation and importance.
+    * **Effectiveness:**
+        * Awarded Marks: 1.5
+        * Feedback: Correct explanation and importance.
+
+
+**Question 2a: String Handling Functions (5 marks total)**
+
+* **i. strcpy() (2.5 marks):**
+    * Awarded Marks: 2
+    * Feedback: The student provided a correct example and explanation of the function. However, the syntax provided is incomplete. It lacks the data types (char*).
+
+* **ii. strlen() (2.5 marks):**
+    * Awarded Marks: 2
+    * Feedback: The student provided a correct example and explanation of the function. However, the syntax provided is incomplete. It lacks the data type (const char*) and return type (size_t).
+
+
+**Question 2b: C Program for ASCII Codes (5 marks):**
+
+* **C Program (5 marks):**
+    * Awarded Marks: 5
+    * Feedback: The student's C program is correct and functions as expected. It accurately reads the name from the keyboard and outputs the corresponding ASCII values.
+
+
+**Summary of Scores:**
+
+* **Question 1:** 9 / 10
+* **Question 2a:** 4 / 5
+* **Question 2b:** 5 / 5
+* **Total Score:** 18 / 20
+* **Percentage:** 90%
+
+
+**Flagged Responses for Manual Review:**
+
+None.  All responses were matched confidently.
+
+
+**Log of Unmatched or Ambiguously Matched Responses:**
+
+None.
+
+
+**Areas Where Student Answers Deviate from Expected Solutions:**
+
+* **Question 1 (Algorithm Definition):** The definition could be more precise.
+* **Question 2a (strcpy() and strlen() Syntax):**  The syntax provided for both functions is incomplete, missing crucial type information.
+
+
+**Overall Feedback:**
+
+The student demonstrates a good understanding of algorithms and their characteristics. The C program for ASCII values is well-written and functional.  Minor improvements are needed in the formal definition of an algorithm and the syntax descriptions for the string functions.  The student achieved a high score, reflecting a solid grasp of the concepts covered in the exam.

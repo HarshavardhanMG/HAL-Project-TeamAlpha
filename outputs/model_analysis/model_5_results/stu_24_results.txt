@@ -1,0 +1,38 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 10
+* **Feedback:** The student provided a correct definition of an algorithm and accurately listed and explained the five important characteristics: Finiteness, Definiteness, Input, Output, and Effectiveness.  The explanations for the importance of each characteristic were well-articulated and demonstrated a good understanding of the concepts.
+
+**Question 2a. Explain the following string handling functions with examples. i. strcpy() - syntax and example ii. strlen()- syntax and example**
+
+* **Maximum Marks:** 5 (2.5 for strcpy() + 2.5 for strlen())
+* **Awarded Marks:** 4
+* **Feedback:** 
+    * **strcpy():** The student provided a correct explanation and a working example. However, the syntax provided was incomplete. It should have included the data types: `char* strcpy(char *destination, const char *source);`.  -0.5 marks for incomplete syntax.
+    * **strlen():** The student provided a correct explanation and a working example. However, the syntax provided was incomplete. It should have included the data type and the `const` qualifier: `size_t strlen(const char *str);` -0.5 marks for incomplete syntax.
+
+**Question 2b. Write a C program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student provided a correct and well-structured C program that accurately reads a name from the keyboard and outputs the corresponding ASCII values for each character. The code is efficient and uses appropriate functions like `scanf` and `strlen`. The output format is clear and easy to understand.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Obtained Marks:** 19
+* **Percentage:** 95%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Summary:**
+
+The student demonstrated a strong understanding of algorithms and their characteristics. The C programming skills are also good, as evidenced by the correct implementation of the ASCII code program.  Minor deductions were made for incomplete syntax in the string handling functions. Overall, a very good performance on the exam.  

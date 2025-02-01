@@ -1,0 +1,79 @@
+question1 answer:
+Algorithm is like a set of rules or instructions to solve a problem. It's a way to tell a computer what to do.
+
+Five important things about algorithms:
+
+Stop at some point. Importance: To get an answer.
+
+Steps must be clear. Importance: So it's done right.
+
+Can have input values. Importance: To work with different things.
+
+Must give some result. Importance: To solve the problem.
+
+Steps must be possible to do. Importance: To be able to actually do it.
+
+question2 answer:
+2a.
+i. strcpy() - Copy string function: Copies a string.
+
+Syntax:
+strcpy(destination, source)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char s1[] = "original";
+char s2[12];
+strcpy(s2, s1);
+printf("Copied string is %s", s2);
+}
+
+Output:
+Copied string is original
+
+ii. strlen() - Length of string function: Finds length of string.
+
+Syntax:
+strlen(string)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char text_data[] = "sampletext";
+int length_data = strlen(text_data);
+printf("Length of the string is %d", length_data);
+}
+
+Output:
+Length of the string is 10
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char input_name[90];
+  printf("Enter your name please: ");
+  scanf("%s", input_name);
+
+  int j = 0;
+  while (input_name[j] != '\0') {
+    printf("%c : %d \n", input_name[j], input_name[j]);
+    j = j + 1;
+  }
+  return 0;
+}
+
+
+Example Output:
+Enter your name please: Noah
+N : 78
+o : 111
+a : 97
+h : 104

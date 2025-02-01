@@ -1,0 +1,57 @@
+question1 answer:
+An algorithm is set of rules to solve something. Like how a machine would do a task by following instructions.
+things that is important for algorithm
+
+It needs to finish, no endless loops.
+
+Instructions needs to be very clear
+
+Need some sort of input to work on
+
+Should always give output
+
+It should be something that can work.
+
+question2 answer:
+a)
+i. strcpy() copy string to another string
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[20] = "hi";
+char b[20];
+strcpy(b,a);
+printf("%s",b);
+}
+
+ii. strlen() gives length of string
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[20] = "hi";
+int len = strlen(a);
+printf("%d",len);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char name[50];
+    int i;
+    printf("name is? ");
+    scanf("%s",name);
+    printf("ascii value\n");
+    for(i=0;i<strlen(name);i++)
+    {
+        printf("%c: %d\n",name[i],name[i]);
+    }
+    return 0;
+}

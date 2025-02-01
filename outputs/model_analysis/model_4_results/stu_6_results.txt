@@ -1,0 +1,54 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified definition, missing the key aspects of "well-defined instructions" and problem-solving. (1.5/2.5 marks awarded)
+    * Finiteness: Correct explanation and importance. (1.5/1.5 marks awarded)
+    * Definiteness: The explanation focuses on simplicity instead of clarity and unambiguity. Importance is partially correct. (1/1.5 marks awarded)  
+    * Input: Correct explanation and importance. (1.5/1.5 marks awarded)
+    * Output: Correct explanation and importance. (1.5/1.5 marks awarded)
+    * Effectiveness: The explanation is acceptable, but the connection to feasibility is weak. (1.5/1.5 marks awarded)
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Correct example and basic explanation. However, the syntax is missing, and the definition lacks detail about the null terminator and potential buffer overflow issues.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Correct example and basic explanation. However, the syntax is missing, and the definition could be more precise (e.g., mentioning the null terminator).  
+
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:**
+    * The program is correct and functions as expected. It reads the name, iterates through each character, and prints the corresponding ASCII value. Good use of `strlen()` within the loop.  No error handling for buffer overflow in scanf, but not explicitly required in the question.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 16.5
+* **Percentage:** 82.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Summary:**
+
+The student demonstrates a good understanding of basic programming concepts and algorithms. However, there's a need for improvement in providing precise definitions and explaining the nuances of specific functions. The student should focus on including syntax in function explanations and elaborating on the theoretical aspects of algorithms.  The C program is well-written and functional, showcasing practical coding skills.  The student could benefit from learning about potential vulnerabilities like buffer overflow when using functions like `scanf`.

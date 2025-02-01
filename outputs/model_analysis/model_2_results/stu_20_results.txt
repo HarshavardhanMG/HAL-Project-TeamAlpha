@@ -1,0 +1,49 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:** 
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  Missing the crucial aspects of "finite set" and "well-defined instructions".
+    * Characteristics:
+        * Finiteness: Explained correctly (1.5/1.5 marks).
+        * Definiteness: Explained correctly using the term "Unambiguous" (1.5/1.5 marks).
+        * Input: Explained correctly (1.5/1.5 marks).
+        * Output: Explained correctly (1.5/1.5 marks).
+        * Effectiveness: While the student mentioned "Efficiency", the answer focused more on time and memory usage rather than the feasibility of individual steps (1/1.5 marks).  The answer key emphasizes simplicity and feasibility of execution for effectiveness.  The student's answer touches on efficiency, which is a related but distinct concept.
+
+
+**Question 2a: Explain `strcpy()` and `strlen()` with examples.**
+
+* **Maximum Marks:** 5 (2.5 for each function)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * `strcpy()`: Syntax is correct, the example is functional and demonstrates the copying of a string. However, the use of `void main()` is incorrect; it should be `int main()`. (2/2.5 marks)
+    * `strlen()`: Syntax provided is incomplete. It should include the data type for the return value (size_t) and  `const char *` for the input string. The example is functional and demonstrates finding the string length. Again, `void main()` is incorrect. (2/2.5 marks).
+
+
+**Question 2b: C program to print ASCII values of name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:**
+    * The program functions correctly and prints the ASCII values of the entered name. However, the loop condition `i<=strlen(name)` is incorrect and leads to printing the null terminator's ASCII value (0).  It should be `i < strlen(name)`. Using `scanf("%s", &name);` is also technically incorrect. `name` is already a pointer because it's an array.  It should be `scanf("%s", name);`. (4/5 marks)
+
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 15.5
+* **Percentage:** 77.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All responses could be confidently matched to the corresponding questions based on content.
+
+
+**Summary:**
+
+The student demonstrates a good understanding of algorithms and their characteristics. The student also shows proficiency in basic C programming concepts related to strings. However, minor inaccuracies in syntax, program logic (loop condition in 2b), and a slightly off definition of "Effectiveness" prevented achieving a perfect score.  The student should pay closer attention to detail and review standard C library function syntax and best practices.  The difference between "efficiency" and "effectiveness" in the context of algorithms should also be reviewed.

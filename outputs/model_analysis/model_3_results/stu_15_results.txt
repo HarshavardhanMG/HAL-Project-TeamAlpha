@@ -1,0 +1,51 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and doesn't mention key aspects like problem-solving.  It's more of a general description.
+    * Finiteness: Correct (1.5/1.5).
+    * Definiteness: Correct (1.5/1.5).
+    * Input: Correct (1.5/1.5).
+    * Output: Correct (1.5/1.5).
+    * Effectiveness: The student used the term "doable" which is not as precise as "feasible" but acceptable in this context.(1.5/1.5)
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** The code functions correctly, but lacks explanation and the syntax declaration. Missing definition and detailed explanation as per the answer key.  Code only demonstrates functionality.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** The code functions correctly, but lacks explanation and the syntax declaration.  Missing definition and detailed explanation as per the answer key. Code only demonstrates functionality.
+
+
+**Question 2b: C Program for ASCII codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The code is correct, efficient, and well-structured. It accurately reads the name and outputs the corresponding ASCII values. Meets all requirements of the question. Minor difference in prompt wording ("what is your name" instead of "Enter your name") is acceptable.  
+
+
+**Total Score:**
+
+* **Total Maximum Marks:** 20
+* **Total Awarded Marks:** 15
+* **Percentage:** 75%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All answers could be matched to questions based on content.
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and their characteristics, although the definition could be more precise.  The student can write functional C code for string manipulation and ASCII conversion, but needs to improve on providing comprehensive explanations including definitions and syntax as part of the answer. The student lost marks primarily due to lack of complete explanations for the string functions.   The C program for ASCII conversion showcases good programming skills.  Overall, a decent performance with room for improvement in theoretical understanding and explanatory detail.

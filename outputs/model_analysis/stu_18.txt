@@ -1,0 +1,78 @@
+question1 answer:
+An algorithm is like a recipe in cooking. It's a set of steps that you follow to make something. In computer terms, it's a set of instructions for the computer to do something. It's how we tell the computer what to do to solve a problem.
+
+Five important things about algorithms are:
+
+It should stop: This means it should not go on forever. Like when you are cooking, you want the recipe to finish and you get food, not just keep cooking forever. If an algorithm doesn't stop, it's not useful.
+
+It should be clear: Every step in the algorithm should be easy to understand. If the steps are confusing, then the computer will not know what to do, just like if a recipe is confusing you will mess up the cooking.
+
+It needs input: Sometimes an algorithm needs some things to start with, like ingredients for cooking. Input is what we give to the algorithm to work on.
+
+It gives output: After the algorithm is done, it should give you a result, like the cooked food. Output is what the algorithm produces after following the steps.
+
+It should be do-able: Each step in the algorithm must be something that can actually be done. Like in cooking, you can't ask to use an ingredient that doesn't exist. The computer should be able to do every step in the algorithm in a reasonable time.
+
+These things are important because they make sure the algorithm works correctly and gives us the right answer. If it doesn't stop, or is confusing, or can't be done, then it's not a good algorithm.
+
+question2 answer:
+2a.
+i. strcpy(): This function is used to copy strings. You give it two strings, and it copies the first string to the second string.
+
+Syntax:
+strcpy(destination string, source string);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char str1 = "Hello";
+char str2[10];
+strcpy(str2, str1);
+printf(str2);
+return 0;
+}
+
+Output:
+Hello
+
+ii. strlen(): This function tells you how long a string is. It counts the number of letters in the string.
+
+Syntax:
+strlen(string);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char text = "Computer";
+int len = strlen(text);
+printf("Length is %d", len);
+return 0;
+}
+
+Output:
+Length is 8
+
+2b.
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char myname[20];
+printf("Enter name: ");
+scanf("%s", myname);
+
+for (int j=0; j < length(myname); j++) {
+printf("%c - %d \n", myname[j], myname[j]);
+}
+return 0;
+}
+
+Example Output:
+Enter name: Sam
+S - 83
+a - 97
+m - 109

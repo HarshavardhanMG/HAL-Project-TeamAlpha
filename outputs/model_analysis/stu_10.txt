@@ -1,0 +1,55 @@
+question1 answer:
+An algorithm is a way to do a task. It is a set of instructions that a computer needs to solve a problem.
+
+Important things about an algorithm
+
+Finiteness: It means algorithm must stop after sometime.
+
+Definiteness: All the steps of algorithm should be clear.
+
+Input: Algorithm can take some inputs.
+
+Output: Algorithm should have some output
+
+Effectiveness: Algorithm should do a valid task.
+
+question2 answer:
+a)
+i. strcpy() copies a string.
+
+#include <stdio.h>
+#include <string.h>
+int main(){
+char a[20] = "hello";
+char b[20];
+strcpy(b,a);
+printf("%s",b);
+}
+
+
+ii. strlen() gives string length.
+
+#include <stdio.h>
+#include <string.h>
+int main(){
+char a[20] = "hello";
+int len = strlen(a);
+printf("%d",len);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main(){
+char name[50];
+int i;
+printf("name please: ");
+scanf("%s",name);
+printf("ASCII stuff:\n");
+for(i = 0; i<strlen(name);i++){
+printf("%c: %d\n",name[i],name[i]);
+}
+return 0;
+}

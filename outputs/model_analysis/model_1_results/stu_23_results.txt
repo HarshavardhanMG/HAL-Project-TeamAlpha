@@ -1,0 +1,43 @@
+## Evaluation of Student Answers
+
+**Question 1: Define Algorithm and its characteristics (10 marks)**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for each characteristic)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition and explanation of the five characteristics.  While they used slightly different terminology (e.g., "Termination" instead of "Finiteness," "Clarity" instead of "Definiteness," "Feasibility" instead of "Effectiveness"), the core concepts are correctly explained.  A small deduction of 0.5 marks is applied for not strictly adhering to the keywords in the answer key, though the understanding is demonstrably present.
+
+**Question 2a(i): strcpy() (2.5 marks)**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2.5
+* **Feedback:** The student correctly explained the function, provided the correct syntax, and included a working example.
+
+**Question 2a(ii): strlen() (2.5 marks)**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2.5
+* **Feedback:** The student correctly explained the function, provided the correct syntax, and included a working example.
+
+**Question 2b: C Program for ASCII values (5 marks)**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program correctly reads the name from the keyboard and outputs the ASCII values. The implementation using the null terminator in the loop condition is a valid alternative to using `strlen()` and doesn't warrant a deduction.
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 19.5
+* **Percentage:** 97.5%
+
+
+**Flagged Responses for Manual Review:** None
+
+**Log of Unmatched or Ambiguously Matched Responses:** None
+
+**Areas where Student Answers Deviate from Expected Solutions:**
+
+* Question 1: The student used slightly different terminology for the characteristics of an algorithm. While the explanations are correct, it's worth noting the deviation from the keywords used in the answer key. This highlights the need for flexibility in evaluating answers based on understanding rather than strict keyword matching.
+
+
+This evaluation demonstrates a good understanding of the concepts tested in the exam. The student achieved a high score by providing accurate and well-explained answers. The minor deviations in terminology are acceptable, demonstrating a grasp of the underlying principles.

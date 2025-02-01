@@ -1,0 +1,54 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  Missing the formal aspects of "finite set" and "well-defined instructions."
+    * Finiteness: Correctly identified the characteristic and its importance (1.5/1.5 marks).
+    * Definiteness: Correctly identified the characteristic and its importance (1.5/1.5 marks).
+    * Input: Correctly identified the characteristic and its importance (1.5/1.5 marks).
+    * Output: Correctly identified the characteristic and its importance (1.5/1.5 marks).
+    * Effectiveness: Correctly identified the characteristic and its importance (1.5/1.5 marks).
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correctly provided a basic definition and the functionality of `strcpy()`.
+    * Syntax is overly simplified; missing data types and the `const` qualifier for the source.
+    * The example code compiles and demonstrates the function but uses `void main()` which is non-standard.  Should use `int main()`.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correctly provided a basic definition and the functionality of `strlen()`.
+    * Syntax is overly simplified; missing data type and `const` qualifier.
+    * The example code compiles and demonstrates the function but uses `void main()` which is non-standard. Should use `int main()`.
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * The student's program correctly reads the name and prints the ASCII values.
+    * The use of a `while` loop with a null terminator check is acceptable, though a `for` loop using `strlen()` (as in the answer key) is generally preferred for string iteration.  Minor deduction for not adhering to best practices.  (-0.5 marks)
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 14.5
+* **Percentage:** 72.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Summary:** The student demonstrates a basic understanding of algorithms and string handling functions.  The answers are generally correct in terms of functionality but lack precision in syntax and terminology, particularly in the code examples. The student should focus on improving code style, adhering to standard C practices, and providing more formal definitions.  The algorithm definitions could be improved with more technical vocabulary. The student's program for ASCII conversion is functional and demonstrates understanding, but could be slightly improved in terms of code style.

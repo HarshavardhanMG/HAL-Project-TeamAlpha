@@ -1,0 +1,54 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Student provided a simplified definition lacking precision (1 out of 2.5 marks).  Missing key elements like "finite set," "well-defined instructions," and the purpose of solving a specific problem.
+    * Finiteness: Correctly explained, although informally (1.5 out of 1.5 marks).
+    * Definiteness: Correctly explained, although informally (1.5 out of 1.5 marks).
+    * Input: Correctly explained (1.5 out of 1.5 marks).
+    * Output: Correctly explained (1.5 out of 1.5 marks).
+    * Effectiveness: Correctly explained, although informally.  Should have used the term "feasible" (1.5 out of 1.5 marks).
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Provided a very basic code example that works, but lacks a proper explanation or definition of the function's purpose. No syntax provided. Missing `return 0;` which is considered good practice.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** 
+    * Provided a very basic code example that works, but lacks a proper explanation or definition of the function's purpose. No syntax provided. Missing `return 0;` which is considered good practice.
+
+
+**Question 2b: C Program for ASCII codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:**
+    * The student's code is correct and functions as expected. It correctly reads the name, iterates through each character, and prints the corresponding ASCII value. Good use of `strlen` within the loop condition. Minor deduction for slightly informal prompt ("enter your name :" instead of "Enter your name: "). This time `return 0;` is present. Overall, a well-written solution.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 15
+* **Percentage:** 75%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All questions were answered and could be matched to the corresponding question in the answer key based on content.
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and their characteristics, but needs to work on providing more formal and complete definitions. While the student can write functional C code for string manipulation and ASCII value conversion, a deeper understanding of the functions (strcpy and strlen) and their formal properties is lacking. The student needs to improve on providing comprehensive explanations and adhering to coding conventions for better readability and completeness.  The student did well on the programming task in question 2b, showcasing practical coding skills.

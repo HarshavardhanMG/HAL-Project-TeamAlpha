@@ -1,0 +1,56 @@
+question1 answer:
+Algorithm is like instructions for the computer so it can solve problem. It need to be step by step.
+
+Important things an algorithm must have:
+
+Finiteness: Algorithm needs to stop after a while.
+
+Definiteness: It should be clear steps that computer can follow.
+
+Input: It might needs inputs.
+
+Output: It should give some output.
+
+Effectiveness: it should actually work and be doable.
+
+question2 answer:
+a)
+i. strcpy() - copies string
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char str1[20] = "abc";
+char str2[20];
+strcpy(str2, str1);
+printf("%s",str2);
+}
+
+
+ii. strlen() - length of string
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char str1[20] = "abc";
+int len = strlen(str1);
+printf("%d",len);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    char name[50];
+    int i;
+    printf("give name: ");
+    scanf("%s", name);
+    printf("ASCII:\n");
+    for(i=0; i<strlen(name); i++) {
+        printf("%c: %d\n", name[i], name[i]);
+    }
+    return 0;
+}

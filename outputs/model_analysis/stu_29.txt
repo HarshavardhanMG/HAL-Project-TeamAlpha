@@ -1,0 +1,80 @@
+question1 answer:
+Algorithm: It's a set of instructions to solve a problem. Like a step-by-step process for computers.
+
+Algorithm characteristics:
+
+Finiteness: Algorithm must stop. Importance: To give answer finally.
+
+Definiteness: Steps must be clear. Importance: To be understood and work correctly.
+
+Input: Can take input. Importance: To work with different data.
+
+Output: Must give output. Importance: To show result.
+
+Effectiveness: Steps must be doable. Importance: To be actually possible to execute.
+
+question2 answer:
+2a.
+i. strcpy() - copy string: Copies a string.
+
+Syntax:
+strcpy(destination, source)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char s_one[] = "first";
+char s_two[8];
+strcpy(s_two, s_one);
+printf("Second string: %s", s_two);
+}
+
+Output:
+Second string: first
+
+ii. strlen() - string length: Calculates length of string.
+
+Syntax:
+strlen(string_name)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char message[] = "longtext";
+int len_msg = strlen(message);
+printf("String length is %d", len_msg);
+}
+
+Output:
+String length is 8
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char name_input[70];
+  printf("Enter your name please: ");
+  scanf("%s", name_input);
+
+  int i = 0;
+  while (name_input[i] != '\0') {
+    printf("%c : %d\n", name_input[i], name_input[i]);
+    i++;
+  }
+  return 0;
+}
+
+
+Example Output:
+Enter your name please: Felix
+F : 70
+e : 101
+l : 108
+i : 105
+x : 120

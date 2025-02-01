@@ -1,0 +1,56 @@
+question1 answer:
+An algorithm is a thing that tells computer how to do stuff. Its like recipe for computer and must be very clear.
+Here are important things about algorithm
+
+Finiteness: it should finish after sometime
+
+Definiteness: It has to be clear instructions for computer
+
+input: it needs some data to work with
+
+output: it needs to provide a result
+
+effectiveness: it should work
+
+question2 answer:
+a)
+i. strcpy() copy string from one variable to another
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[] = "hello";
+char b[10];
+strcpy(b,a);
+printf("%s",b);
+}
+
+
+ii. strlen() gives the length of string
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[] = "hello";
+int l = strlen(a);
+printf("%d",l);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char name[50];
+    int i;
+    printf("Enter name: ");
+    scanf("%s", name);
+    printf("ASCII Values are:\n");
+    for(i = 0; i < strlen(name); i++) {
+        printf("%c : %d\n", name[i], name[i]);
+    }
+    return 0;
+}

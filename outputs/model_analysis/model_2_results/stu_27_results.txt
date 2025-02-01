@@ -1,0 +1,61 @@
+## Evaluation of Student Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * Definition: Partially correct (1/2.5). The definition lacks precision and doesn't mention key aspects like well-defined instructions, problem-solving, and structured approach.  
+    * Finiteness: Partially correct (0.5/1.5). The student mentions stopping but doesn't explicitly state "finite number of steps."
+    * Definiteness: Partially correct (0.5/1.5). "Steps clear" is vague; it should mention unambiguous and precise instructions.
+    * Input: Correct (1/1.5).
+    * Output: Correct (1/1.5).
+    * Effectiveness: Partially correct (0.5/1.5). "Steps doable" is not precise enough. It should mention feasibility and execution in a limited time.
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** 
+    * Definition: Missing a proper definition of the function's purpose.
+    * Syntax: Incorrect. Missing data types and `const` keyword for the source.
+    * Example: Correct functionality but lacks explanation and comments.  
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Definition: Missing a proper definition of the function's purpose (excluding null character).
+    * Syntax: Incorrect. Missing data type and `const` keyword.
+    * Example: Correct functionality but lacks explanation and comments.
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 3
+* **Feedback:**
+    * The program functions correctly and outputs the ASCII values.
+    * However, the student uses a `do-while` loop with an incorrect termination condition (`username[index] != NULL`). Should use `< strlen(username)` for the loop condition.  This demonstrates a misunderstanding of string termination in C.
+    * Lacks comments explaining the logic.
+    * `scanf("%s", username);` is vulnerable to buffer overflow.  Should use a safer input method like `fgets`.
+
+
+**Total Score:**
+
+* **Maximum Marks:** 20
+* **Awarded Marks:** 11
+* **Percentage:** 55%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All answers could be matched to the corresponding questions based on content.
+
+
+**Overall Summary:**
+
+The student demonstrates a basic understanding of algorithms and string functions but lacks precision and depth in their explanations. The C program, while functional, reveals flaws in understanding string handling and loop termination conditions. The student needs to focus on providing more detailed and accurate definitions, using correct syntax, and adhering to good programming practices (like using safer input methods and adding comments).  More in-depth understanding of core concepts like string termination in C is crucial.

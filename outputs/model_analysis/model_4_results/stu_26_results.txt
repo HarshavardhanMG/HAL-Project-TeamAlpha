@@ -1,0 +1,42 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: The student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  It lacks the precision of the reference answer but conveys the core concept.
+    * Characteristics:  While the student identified five key aspects of algorithms, they used informal language and lacked the specific terminology expected (Finiteness, Definiteness, Input, Output, Effectiveness).  
+        * "Must End" correctly describes Finiteness (1.5/1.5).
+        * "Clear Steps" captures the essence of Definiteness (1/1.5).  Lacks the precision of "unambiguous" and "consistent."
+        * "Needs Input" correctly addresses Input (1.5/1.5).
+        * "Gives Output" correctly addresses Output (1.5/1.5).
+        * "Possible to Do" relates to Effectiveness but is less precise (1/1.5). Should emphasize feasibility and efficiency.
+
+
+**Question 2a: Explain the following string handling functions with examples. i. strcpy() - syntax and example ii. strlen()- syntax and example**
+
+* **Maximum Marks:** 5 (2.5 for each function)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * `strcpy()` : The student provided a correct explanation, a working example, and the correct output. However, the syntax provided is simplified and lacks the data types (char*). (2/2.5 marks)
+    * `strlen()` : The student provided a correct explanation, a working example, and the correct output. However, the syntax provided is simplified and lacks the data type (size_t) and the `const char*` for the input string. (2/2.5 marks)
+
+
+**Question 2b: Write a C program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:** The student's program is functionally correct and produces the desired output. However, there's a minor error in the `for` loop: it starts from index 1 instead of 0, though the correct index is accessed using `x-1`. This is a minor inefficiency and might cause confusion. (-1 mark for the slight inefficiency and potential confusion in the loop).
+
+
+**Total Score:**
+
+* **Total Marks:** 15
+* **Marks Obtained:** 14.5
+* **Percentage:** 96.67%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Summary:** The student demonstrates a good understanding of the core concepts but needs to improve on using precise terminology and adhering to standard syntax conventions. The student's programming skills are good, but attention to detail (like loop indexing) is crucial.  The student should be encouraged to review formal definitions and syntax for greater accuracy.

@@ -1,0 +1,48 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and doesn't mention key aspects like problem-solving and structured approach.  It's more of a layman's explanation.
+    * Finiteness: Correct explanation (1.5/1.5).
+    * Definiteness: Correct explanation (1.5/1.5).
+    * Input: Explanation lacks depth regarding the purpose of input (1/1.5). Just stating "important for algorithm" is insufficient.
+    * Output: Explanation lacks depth regarding the purpose of output representing the solution (1/1.5). Just stating "must produce some kind of result" is insufficient.
+    * Effectiveness:  Explanation is weak. It doesn't clearly convey the concept of feasibility and efficiency in terms of computational resources  (0.5/1.5).
+
+
+**Question 2a(i): Explain strcpy() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** The explanation is overly simplistic ("copies a string to another string").  The example is correct but lacks comments and a clear `return 0;`  in the provided snippet making it less readable. Syntax is missing.
+
+
+**Question 2a(ii): Explain strlen() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** The explanation is overly simplistic ("gets string length"). The example is correct but lacks comments and a clear `return 0;`  in the provided snippet, impacting readability. Syntax is missing.
+
+
+**Question 2b: Write a C program to read a name and output ASCII codes.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The program is correct and functions as expected. It accurately reads the name and prints the corresponding ASCII values. Good use of `strlen` in the loop.
+
+
+**Total Score:**
+
+* **Total Marks:** 15
+* **Marks Obtained:** 15
+* **Percentage:** 60%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Overall Summary:**
+
+The student demonstrates a basic understanding of algorithms and string functions but needs to improve the depth and precision of their explanations.  The C programming skills are good, as evidenced by the correct implementation of the ASCII code program.  The student should focus on providing more comprehensive explanations and including essential elements like syntax in their answers.  Emphasis on code readability (comments, proper structure) is also recommended.

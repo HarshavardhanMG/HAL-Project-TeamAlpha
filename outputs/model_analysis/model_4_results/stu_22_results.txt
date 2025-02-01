@@ -1,0 +1,40 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm, capturing the core concepts of rules, problem-solving, and computer implementation.  The explanations for each characteristic were accurate and well-articulated, demonstrating a clear understanding of their importance. A slight deduction of 0.5 marks for not explicitly mentioning "well-defined instructions" or "finite set" in the definition  as the answer key did.  While the student's definition conveys the meaning, using the specific terminology from the answer key would have been ideal.
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student correctly explained the purpose of `strcpy()` and provided a working example. However, the syntax provided was incomplete. It lacked the data types ( `char*` ) and the `const` qualifier for the source string, which are important for understanding the function's behavior and preventing potential errors. The use of `void main()` is also outdated and incorrect; `int main()` is the standard.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** Similar to `strcpy()`, the student explained the purpose and provided a working example for `strlen()`. However, the syntax was incomplete, missing the return type (`size_t`) and the `const` qualifier for the input string.  The use of `void main()` is also incorrect.
+
+
+**Question 2b: C program for ASCII codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program correctly reads a name from the keyboard, iterates through each character, and prints its corresponding ASCII value. The code is well-structured, uses appropriate variable names, and includes necessary headers. The example output demonstrates the program's functionality. No errors found.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 18.5
+* **Percentage:** 92.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Summary:** The student demonstrated a good understanding of algorithms and their characteristics.  The C program for ASCII conversion was excellent. However, minor deductions were made for incomplete syntax and incorrect use of `void main()` in the string handling function explanations.  Overall, a strong performance on the exam.  

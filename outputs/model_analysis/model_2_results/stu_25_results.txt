@@ -1,0 +1,54 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and completeness. Missing key aspects like well-defined, finite set of instructions, specific task, and problem-solving.  "Recipe for coding" is an oversimplification.
+    * Finiteness: Correct characteristic and importance, but explanation lacks depth (1/1.5).
+    * Definiteness: Correct characteristic and importance, but explanation lacks depth (1/1.5).
+    * Input: Correct characteristic and importance, but explanation lacks depth (1/1.5).
+    * Output: Correct characteristic and importance, but explanation lacks depth (1/1.5).
+    * Effectiveness: Correct characteristic and importance, but explanation lacks depth (1/1.5).  "Doable steps" is not precise enough.  Should mention feasibility and efficiency.
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correct syntax and a working example provided.
+    * Missing a formal definition of the function's purpose.  "Copies string" is too brief.  Should mention copying the content of the source string to the destination string including the null terminator.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1
+* **Feedback:**
+    * Incorrect example due to using `char` instead of `char[]` for the string variable. This demonstrates a misunderstanding of string representation in C.
+    * Syntax is overly simplified; should include the return type (`size_t`).  Missing a formal definition. "Gets string length" is too brief. Should mention that it returns the number of characters before the null terminator.
+
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * The program functions correctly and produces the desired output.
+    * Minor deduction for using `0` instead of `'\0'` to check for the null terminator. While functionally equivalent in this case, it's better practice to use `'\0'` for clarity and to explicitly represent the null terminator. Using a while loop instead of the more straightforward for loop with strlen is slightly less efficient but acceptable.
+
+
+**Total Score:**
+
+* **Total Maximum Marks:** 20
+* **Total Awarded Marks:** 14
+* **Percentage:** 70%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Overall Summary:**
+
+The student demonstrates a basic understanding of algorithms and string manipulation functions in C.  However, the answers lack depth and precision in explaining concepts. The student needs to focus on providing more complete and accurate definitions, and pay closer attention to detail when writing code (e.g., correct data types for strings). The student should also practice using standard C coding conventions for better readability and maintainability.

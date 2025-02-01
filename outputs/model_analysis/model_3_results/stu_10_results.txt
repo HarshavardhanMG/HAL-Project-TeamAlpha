@@ -1,0 +1,42 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics (10 marks)**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and important elements like "well-defined instructions", "finite set" and the purpose of solving a problem.  While the essence of an algorithm is captured, the answer is too simplistic.
+    * Finiteness: Correct explanation (1.5/1.5).
+    * Definiteness: Correct explanation (1.5/1.5).
+    * Input: Correct explanation (1.5/1.5).
+    * Output: Correct explanation (1.5/1.5).
+    * Effectiveness: Partially correct (0/1.5). The student's answer "Algorithm should do a valid task" is vague.  It doesn't capture the concept of feasibility and efficiency that "effectiveness" implies in the context of algorithms.  The answer should emphasize that each step must be achievable in a practical amount of time and resources.  
+
+
+**Question 2a: String Handling Functions (5 marks)**
+
+* **Maximum Marks:** 5 (2.5 for strcpy + 2.5 for strlen)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * `strcpy()`: Partially correct (2/2.5). Missing the definition and formal syntax explanation. The code example is functional but lacks context (no `return 0` or explanation of what's happening).  
+    * `strlen()`: Partially correct (2/2.5). Missing the definition and formal syntax explanation. The code example is functional but lacks context (no `return 0` or explanation of output).
+
+**Question 2b: ASCII Code Program (5 marks)**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The program is correct and functions as expected.  It correctly reads the name, iterates through the characters, and prints the ASCII values.  Good variable naming and clear output.
+
+
+
+**Summary:**
+
+* **Total Score:** 15.5 / 20
+* **Percentage:** 77.5%
+
+**Flagged Responses for Manual Review:**  None. All answers could be clearly matched to the corresponding questions based on content.
+
+
+**Overall Feedback:**
+
+The student demonstrates a basic understanding of algorithms and string handling functions in C.  However, the answers lack depth and precision, particularly in defining key concepts and explaining the functionalities of the C functions.  While the code examples are functional, they would benefit from more context and explanation.  The student should focus on providing more complete and detailed answers, including formal definitions, syntax, and clear explanations of the logic behind the code.  The student should also pay more attention to keywords used in the questions (like "effectiveness" in question 1) and ensure their answers address the specific meaning of those terms within the context of the subject matter.

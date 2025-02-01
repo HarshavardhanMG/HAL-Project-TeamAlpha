@@ -1,0 +1,47 @@
+## Evaluation of Student's Answers
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:** The student provided a simplified but acceptable definition of an algorithm. While the characteristics are correctly identified, the explanations lack the precision and depth of the answer key.  Specifically, the explanations for definiteness and effectiveness could be improved.  The student used the term "clear instructions" for definiteness which is acceptable.  However, for Effectiveness, the example of "the algorithm cannot ask the computer to fly" while illustrative, doesn't fully capture the concept of feasibility in terms of computational steps.
+
+**Question 2a: Explain the following string handling functions with examples. i. strcpy() - syntax and example ii. strlen()- syntax and example**
+
+* **Maximum Marks:** 5 (2.5 for strcpy() + 2.5 for strlen())
+* **Awarded Marks:** 4
+* **Feedback:** The student correctly explained the functionality of both `strcpy()` and `strlen()` and provided working examples. However, the student did not explicitly provide the formal syntax for either function as requested. The examples demonstrate understanding, but the missing syntax loses some marks.  Deducted 0.5 for each missing syntax.
+
+**Question 2b: Write a C program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program is correct and functions as expected. It reads the name from the keyboard, iterates through each character, and prints the corresponding ASCII code.  No issues found.
+
+
+**Total Score and Percentage:**
+
+* **Total Marks Awarded:** 16.5 out of 20
+* **Percentage:** 82.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Detailed Score Breakdown:**
+
+| Question | Maximum Marks | Awarded Marks | Feedback |
+|---|---|---|---|
+| 1 | 10 | 7.5 | Definition acceptable, but explanations for characteristics lack depth and precision, specifically for Definiteness and Effectiveness.  |
+| 2a (strcpy()) | 2.5 | 2 | Functionality explained and example correct, but formal syntax missing. |
+| 2a (strlen()) | 2.5 | 2 | Functionality explained and example correct, but formal syntax missing. |
+| 2b | 5 | 5 | Correct and functional C program. |
+
+
+
+**Log of Unmatched or Ambiguously Matched Responses:** None. All answers were clearly matched to the corresponding questions.
+
+
+**Areas Where Student Answers Deviate from Expected Solutions:**
+
+* **Question 1:** Lack of precision in explaining the characteristics of an algorithm. The student relied on simpler language and examples, missing the formal definitions provided in the answer key.
+* **Question 2a:** Missing formal syntax for `strcpy()` and `strlen()` functions, despite providing correct explanations and examples.

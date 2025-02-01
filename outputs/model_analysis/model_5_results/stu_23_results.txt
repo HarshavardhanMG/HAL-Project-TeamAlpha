@@ -1,0 +1,41 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm and accurately explained all five characteristics. However, the definition could be slightly more formal.  While using simpler terms like "plan" helps with understanding, incorporating terms like "finite set of instructions" would strengthen the answer.  Minor deduction for lack of complete formality in the definition.
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2.5
+* **Feedback:** The student correctly explained the function, provided the correct syntax, and included a working example with accurate output.
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2.5
+* **Feedback:** The student correctly explained the function, provided the correct syntax, and included a working example with accurate output.  
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student wrote a correct and efficient C program that accurately reads a name from the keyboard and outputs the corresponding ASCII values. The code is well-formatted and includes clear output. Using the null terminator in the loop condition (`name_input[i] != '\0'`) is a good practice.
+
+
+## Summary:
+
+* **Total Score:** 20 / 20
+* **Percentage:** 100%
+
+## Flagged Responses for Manual Review:
+
+* **None:** All responses were clearly matched and evaluated.  No ambiguous or unmatched content.
+
+
+## Additional Notes:
+
+* The student demonstrated a strong understanding of algorithms and their characteristics.
+* The student's C programming skills are excellent, showcasing good coding practices and problem-solving abilities.  The use of `int` for the ASCII value is acceptable, though using `unsigned char` for characters might be considered even better practice in some cases to clarify that they represent byte values. However, this is a minor point and does not warrant a deduction in marks in this context.  The explicit cast `(int)name_input[i]` clearly indicates the intent to treat the character as an integer for its ASCII representation.

@@ -1,0 +1,58 @@
+question1 answer:
+Algorithm is basically steps to do something. When we want to do something on computer we need to give it a step by step instruction. This set of instructions that is given to a computer is called Algorithm.
+important thing about algorithm
+
+Finiteness: means it need to finish, it cannot be forever process. It must give result after some time.
+
+Definiteness: all the steps of the algorithm should be clear. It should be easy to understand for the computer. Computer needs clear instruction in order to work properly.
+
+Input: algorithm can take inputs to work on it. Like when we add numbers in calculator we give inputs and algorithm will work on it and show results.
+
+Output: it should produce some kind of results or output. If there is no result then there is no point of running the algorithm.
+
+Effectiveness: Every step should be doable, otherwise it does not work.
+
+question2 answer:
+a)
+i. strcpy() is a function that copies one string to another string.
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char a[20] = "hello";
+char b[20];
+strcpy(b,a);
+printf("%s",b);
+}
+
+
+ii. strlen() is function that gives the length of the string.
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char a[20] = "hello";
+int len = strlen(a);
+printf("%d",len);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char n[50];
+    int i;
+    printf("enter name:");
+    scanf("%s", n);
+    printf("ASCII values:\n");
+    for(i = 0; i < strlen(n); i++) {
+        printf("%c : %d\n", n[i], n[i]);
+    }
+    return 0;
+}

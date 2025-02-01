@@ -1,0 +1,35 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm, capturing the core concept of a step-by-step procedure for problem-solving.  The explanations for each characteristic were accurate and well-articulated, demonstrating a clear understanding of their importance. A slight deduction of 0.5 marks for not explicitly mentioning the structured nature of algorithms in the definition, as highlighted in the answer key's "precise, efficient, and structured."
+
+**Question 2a: Explain `strcpy()` and `strlen()` with examples.**
+
+* **Maximum Marks:** 5 (2.5 for each function explanation)
+* **Awarded Marks:** 4
+* **Feedback:** The student correctly explained the purpose and provided working examples for both functions. However, the syntax provided for `strcpy()`  and `strlen()` lacked the data types (e.g., `char*`, `size_t`) and the `const` qualifier for the source string, which are important for understanding function behavior and memory management.  0.5 marks deducted for each function explanation due to incomplete syntax.  While the examples worked, providing complete and accurate syntax is crucial.
+
+**Question 2b: C program to print ASCII values of a name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program correctly reads a name from the keyboard and prints the ASCII value of each character. The code is well-structured, uses appropriate variable names, and includes necessary headers. The example output demonstrates the correct functionality of the program.  No deductions.
+
+
+## Summary:
+
+* **Total Score:** 18.5 out of 20
+* **Percentage:** 92.5%
+
+## Flagged Responses for Manual Review:
+
+None.  All questions were clearly answered and matched to the corresponding sections in the answer key based on content.  While minor deductions were made for incomplete syntax in 2a, these did not require manual review as the core understanding was demonstrated.  
+
+
+## Areas Where Student Answers Deviate from Expected Solutions:
+
+* **Question 1:** The definition of the algorithm could be slightly improved by explicitly mentioning the structured nature of algorithms, aligning it more closely with the answer key.
+* **Question 2a:** The student should be encouraged to provide complete and accurate function syntax, including data types and qualifiers, even if the examples function correctly. This promotes good coding practices and a deeper understanding of function prototypes.  

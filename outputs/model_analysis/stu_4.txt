@@ -1,0 +1,59 @@
+question1 answer:
+An algorithm is a sequence of instructions designed to solve a particular problem. It's like a recipe, but for computers. It must be specific and follow certain rules.
+The important characteristics of an algorithm are:
+
+Finiteness: The algorithm must eventually stop. It can't run on and on without ever finishing, as this would be very bad for computers.
+
+Definiteness: Each step should be clearly defined, so there's no confusion about what the computer should do at each point. There should be clear instructions that cannot be interpreted differently.
+
+Input: Algorithms often need input to work. This could be a variety of data that the computer will process and give results.
+
+Output: There must be output once the algorithm finishes its job. This is the result of running algorithm. Without result there is no meaning for algorithm.
+
+Effectiveness: All operations should be able to run by the machine. It can’t be something that the computer can't execute. It should be simple and can be done in a reasonable amount of time.
+
+question2 answer:
+a)
+i. strcpy() function is used to duplicate one string to another.
+Syntax: strcpy(destination,source)
+
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[] = "abc";
+char b[20];
+strcpy(b,a);
+printf("%s",b);
+return 0;
+}
+ii. strlen() is used to get the length of any string.
+Syntax: strlen(string)
+
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[] = "abcd";
+int len = strlen(a);
+printf("%d",len);
+return 0;
+}
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char name[50];
+int i;
+printf("enter name: ");
+scanf("%s", name);
+printf("ASCII Values: \n");
+for(i=0; i < strlen(name); i++) {
+printf("%c : %d\n", name[i], name[i]);
+}
+return 0;
+}

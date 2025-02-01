@@ -1,0 +1,45 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 8.5
+* **Feedback:** The student provided a good definition of an algorithm and correctly listed the five characteristics.  The explanations for each characteristic were generally accurate but lacked the precise language of the answer key. Specifically, the explanation for "Finiteness" introduced the idea of it being "dangerous" if not followed, which is an unnecessary and slightly inaccurate exaggeration.  The explanation for "Effectiveness" uses the phrase "computer will get stuck," which is not technically accurate.  While the student understands the concept, using more precise language like "computationally feasible" or "executable within a reasonable timeframe" would be preferred.
+
+
+**Question 2a(i): Explain strcpy() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student correctly explained the function of `strcpy()` and provided the correct syntax. However, the example code lacks `return 0;`  and a proper `printf` statement to clearly demonstrate the copied string. It works, but isn't a best practice example.
+
+
+**Question 2a(ii): Explain strlen() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**  Similar to `strcpy()`, the explanation and syntax are correct. The example code lacks `return 0;` and could benefit from a more descriptive `printf` statement (e.g., "The length of the string is: %d").  While functional, the code example is not demonstrating best practices.
+
+
+**Question 2b: Write a C program to read a name and output ASCII codes.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program is correct and functions as expected. It accurately reads the name from the keyboard and outputs the corresponding ASCII values.  Good use of `strlen()` within the loop.
+
+
+
+## Summary:
+
+* **Total Score:** 23 / 25
+* **Percentage:** 92%
+
+## Flagged Responses for Manual Review:
+
+None. All answers could be clearly matched to the corresponding questions based on content.  While some minor deductions were made for imprecise language and less-than-ideal code examples, no answers were ambiguous or unmatched.
+
+
+## Areas for Improvement:
+
+* **Precise Language:** Encourage the student to use more precise and technically accurate language when explaining algorithmic concepts. Avoid informal terms like "get stuck" and focus on established terminology.
+* **Code Examples:** While the code functions correctly, emphasize the importance of complete and well-structured code, including `return 0;` and descriptive `printf` statements to clearly demonstrate the intended output.  Encourage best practices in variable naming (myname vs. name).  While not penalized here, consistent formatting and commenting should be encouraged.

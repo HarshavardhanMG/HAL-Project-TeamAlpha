@@ -1,0 +1,50 @@
+**Evaluation of Student Answers:**
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * Definition: The student's definition of an algorithm is overly simplistic and lacks precision. It doesn't mention key aspects like a finite set of instructions, problem-solving, or well-defined steps. (1 mark awarded)  
+    * Characteristics: While the student lists the five characteristics, the explanations are extremely brief and lack depth. They don't adequately explain the importance of each characteristic as required by the question.  (5 * 0.6 = 3 marks awarded)
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * The student provides a basic example that demonstrates the functionality of `strcpy()`. However, they do not provide the syntax of the function as explicitly requested in the question. The definition is also missing.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+     * Similar to `strcpy()`, the student provides a working example but omits the formal syntax of the `strlen()` function and its definition.
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * The student's C program correctly reads a name from the keyboard, iterates through the characters, and prints the corresponding ASCII values. The code is functional and well-structured. A minor deduction for not handling potential buffer overflow with `scanf` (using `fgets` would be safer).
+
+
+**Total Score:**
+
+* **Total Maximum Marks:** 20
+* **Total Awarded Marks:** 11.5
+* **Percentage:** 57.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All student responses could be matched to the corresponding questions based on content.
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and string handling functions in C. However, their answers lack depth and precision, especially in explaining theoretical concepts. The student needs to focus on providing more comprehensive explanations and adhering to the specific requirements of each question (e.g., providing syntax, definitions).  The programming skills are better demonstrated, but attention to detail (like input validation) is crucial for robust code.

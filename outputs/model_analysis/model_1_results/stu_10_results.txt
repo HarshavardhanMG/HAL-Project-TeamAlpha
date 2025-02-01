@@ -1,0 +1,46 @@
+## Evaluation of Student Answers
+
+**Question 1:**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6
+* **Feedback:** The student provided a basic definition of an algorithm, but it lacks the precision and completeness of the model answer.  The characteristics are mentioned, but the explanations of their importance are superficial and lack depth.  Specifically, the student doesn't explain *why* finiteness ensures no infinite loops, or *why* definiteness ensures consistent performance, etc.
+
+**Question 2a (i) - `strcpy()`:**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** The student provides a working example, but omits the formal definition and syntax of the function.  The example is minimal and doesn't demonstrate a full understanding of potential issues like buffer overflow.
+
+**Question 2a (ii) - `strlen()`:**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** Similar to `strcpy()`, the student provides a working example but omits the formal definition, syntax explanation, and the significance of the return type (size_t).
+
+**Question 2b - C Program:**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:** The student's program is functionally correct and achieves the desired output. However, the prompt "name please: " is less informative than the model answer's "Enter your name: ".  Minor deduction for less clear user interaction.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 13
+* **Percentage:** 65%
+
+
+**Flagged Responses for Manual Review:**  None.  All answers could be clearly matched to the questions based on content.
+
+
+**Detailed Breakdown and Areas for Improvement:**
+
+* **Algorithm Definition:**  Encourage the student to provide a more formal and complete definition, including the aspects of problem-solving and structured approach.
+* **Characteristics of Algorithms:**  The student needs to elaborate on the *importance* of each characteristic, not just state what they mean.  Focus on the consequences of *not* having these characteristics.
+* **String Functions:**  Emphasize the importance of providing definitions, syntax explanations, and more comprehensive examples that showcase a deeper understanding of the functions.  For `strcpy()`, discuss potential issues like buffer overflows.  For `strlen()`, explain the significance of the `size_t` return type.
+* **C Program - User Interaction:** While the program functions correctly, encourage better user prompts and output formatting for improved readability and user experience.
+
+
+This evaluation provides a detailed breakdown of the student's performance, highlighting both strengths and weaknesses. The feedback aims to be constructive and guide the student towards a better understanding of the concepts.

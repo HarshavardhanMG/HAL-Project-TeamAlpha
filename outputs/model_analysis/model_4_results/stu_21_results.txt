@@ -1,0 +1,51 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  Missing the crucial aspects of "well-defined instructions" and problem-solving.
+    * Characteristics: The student correctly identified all five characteristics and explained their importance adequately (5 * 1.5 = 7.5 marks).  While the explanations are brief, they capture the essence of each characteristic.
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1
+* **Feedback:**
+    * Definition and general purpose are correct.
+    * Syntax provided is overly simplified and lacks data types.
+    * The example code has a critical error in the `strcpy` function call (`strcpy(s2 = s1);` is incorrect). The code wouldn't compile.  The output correctly identifies the compilation error.
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Definition and purpose are correct.
+    * Syntax is again simplified, missing the return type and the `const` qualifier for the input string.
+    * The example code is functionally correct and produces the correct output.
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 3
+* **Feedback:**
+    * The program reads the name correctly and prints the ASCII values.
+    * The loop condition still uses `sizeof(name_input)` which is incorrect. It should use `strlen(name_input)` to iterate only up to the null terminator. This leads to printing garbage values after the name.  However, since the core functionality of printing ASCII values of the name is present, partial credit is awarded.  The lack of a null terminator check is a significant flaw.
+
+
+## Summary:
+
+* **Total Score:** 13.5 / 20
+* **Percentage:** 67.5%
+
+## Flagged Responses for Manual Review:
+
+* **Question 2a(i):** The student's `strcpy` example code has a serious error that would prevent compilation. While the student acknowledges the error in the output,  consider whether to award partial credit for demonstrating understanding of the function's purpose.
+* **Question 2b:** The student's code in 2b still uses `sizeof` instead of `strlen`. While the output for the given example appears correct, this is due to chance (the name fitting within the initial part of the array).  This code would produce incorrect output for longer names or if the array were significantly larger.  Reinforce the importance of using `strlen` to determine the length of a string.
+
+
+## Overall Feedback:
+
+The student demonstrates a basic understanding of algorithms and their characteristics.  However, the student needs to improve their understanding of string handling functions in C, specifically focusing on correct syntax and potential pitfalls like buffer overflows (as highlighted by the `strcpy` and the continued misuse of `sizeof` in 2b).  The student should practice writing more robust and error-free C code.  Emphasize the importance of proper string handling to avoid security vulnerabilities.

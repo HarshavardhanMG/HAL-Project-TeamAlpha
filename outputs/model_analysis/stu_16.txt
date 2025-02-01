@@ -1,0 +1,86 @@
+question1 answer:
+An algorithm is like a plan to solve a problem. It's a list of steps that you follow. In computers, algorithms are used to tell the computer what to do.
+
+Five important things about algorithms are:
+
+It must finish. Importance: So it gives an answer and doesn't go on forever.
+
+Steps must be clear. Importance: So there is no confusion and it works right every time.
+
+It can take input. Importance: To work with different data.
+
+It must give output. Importance: To see the answer.
+
+Steps should be possible to do. Importance: So it can actually be done.
+
+question2 answer:
+2a.
+i. strcpy() - String Copy: Function to copy strings.
+
+Syntax:
+strcpy(destination, source)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char string1[] = "source";
+char string2[10];
+strcpy(string2, string1);
+printf("String 2: %s", string2);
+}
+
+Output:
+String 2: source
+
+ii. strlen() - String Length: Function to get string length.
+
+Syntax:
+strlen(str)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char text_str[] = "example";
+int length_str = strlen(text_str);
+printf("Length = %d", length_str);
+}
+
+Output:
+Length = 7
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char myname[30];
+  printf("Enter your name: ");
+  scanf("%s", myname);
+
+  for (int i = 0; i <= sizeof(myname); i++) { // Note: using sizeof incorrectly
+    if (myname[i] != '\0') { // adding null check, but sizeof still wrong
+       printf("%c - %d\n", myname[i], myname[i]);
+    }
+  }
+  return 0;
+}
+
+
+Example Output:
+Enter your name: Chloe
+C - 67
+h - 104
+l - 108
+o - 111
+e - 101
+
+0
+
+0
+
+0

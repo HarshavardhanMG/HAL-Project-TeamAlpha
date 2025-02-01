@@ -1,0 +1,60 @@
+question1 answer:
+An algorithm is like a recipe for a computer. It's a set of instructions that tell the computer how to do something. It has to be clear and easy to follow, otherwise the computer gets confused.
+Here are the important things about an algorithm:
+
+It has to stop eventually: This means it cannot go on forever. It needs to finish in a reasonable time and give a final answer. This is very important as computers can get stuck if it goes on forever
+
+It has to be clear instructions: The instructions cannot be vague, like go somewhere. It must tell the computer which way to go and what to do. Each step should be definite.
+
+Input : The algorithm might need some information to work, like numbers or strings to play with. if algorithm has a recipe then inputs are the ingredients.
+
+Output: After doing everything the algorithm has to provide result or answer. This is the solution to what problem the algorithm is trying to solve
+
+It has to be effective: the instruction needs to be something that can be done. the algorithm cannot ask the computer to fly, as this is something that cannot be done.
+
+question2 answer:
+a)
+i. strcpy(): This function copies a string. You give it two strings.The first one where you will be saving the new string and second string,which will be copied.
+For example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char destination[20];
+char source[] = "hello";
+strcpy(destination,source);
+printf("%s",destination);
+}
+
+
+Here, "hello" is copied into destination.
+
+ii. strlen(): This function tells you how long a string is. It counts all the letters and numbers and symbols except the null character, which means the end of the string.
+For example:
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char name[] = "myname";
+int length= strlen(name);
+printf("%d",length);
+}
+
+
+Here it would show 6 as myname has 6 characters.
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+    char name[50];
+    int i;
+    printf("Enter your name: ");
+    scanf("%s", name);
+    printf("ASCII values of the entered name:\n");
+    for(i = 0; i < strlen(name); i++) {
+        printf("%c: %d\n", name[i], name[i]);
+    }
+    return 0;
+}

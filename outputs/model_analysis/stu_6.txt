@@ -1,0 +1,60 @@
+question1 answer:
+An algorithm is a set of steps to solve a problem. Like a instruction manual for computers. It tells the computer what to do step by step.
+Five things about an algorithm are:
+
+Finiteness: It means the algorithm will end eventually, and not go on forever. If a computer keeps running forever, that would be a disaster. So, every algorithm must stop after a certain number of steps.
+
+Definiteness: Each instruction should be simple and easy to understand. This makes sure that computer will perform in consistent way.
+
+Input: The algorithm might take some data as input, this might be numbers, text or anything else.
+
+Output: An algorithm will always give you some results. This is the main purpose of an algorithm.
+
+Effectiveness: Every step in an algorithm should be executable, and can be done easily in a short amount of time. This will ensure that we can easily solve the problem that we are trying to solve.
+
+question2 answer:
+a)
+i. strcpy(): This function copies a string to another string variable.
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char str1[] = "code";
+char str2[20];
+strcpy(str2, str1);
+printf("%s", str2);
+}
+
+
+ii. strlen(): This function is to get the length of a string.
+Example:
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char str1[] = "code";
+int len = strlen(str1);
+printf("%d", len);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char name[50];
+int i;
+printf("enter your name: ");
+scanf("%s",name);
+printf("ASCII values are: \n");
+for(i=0;i<strlen(name);i++)
+{
+printf("%c : %d \n",name[i],name[i]);
+}
+return 0;
+}

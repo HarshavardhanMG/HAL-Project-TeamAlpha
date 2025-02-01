@@ -1,0 +1,52 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and completeness. Missing key aspects like "finite set of instructions" and "solve a problem."  Student used informal language ("step-by-step process to do something").
+    * Finiteness: Correct (1.5/1.5).
+    * Definiteness: Correct (1.5/1.5).
+    * Input: Correct (1.5/1.5).
+    * Output: Correct (1.5/1.5).
+    * Effectiveness: Partially correct (0/1.5).  The student's answer ("instructions has to be valid and doable")  lacks the precision of the answer key's "simple and feasible" and the connection to execution time.  "Valid" is too broad.
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** The student provided a correct but minimal example. Missing a clear definition and explanation of the function's purpose as requested (copying the content from source to destination). Syntax is implicitly demonstrated but not explicitly stated.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** Similar to strcpy(), the student provided a working example but lacked a comprehensive explanation and explicit mention of the syntax. Missing the crucial detail that strlen() excludes the null terminator.
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's code is functionally correct and fulfills all requirements.  Minor variation in the prompt ("what is your name:" instead of "Enter your name:") is acceptable.
+
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 15
+* **Percentage:** 75%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All answers could be confidently matched to the corresponding questions based on content.
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and string functions.  The code for the ASCII program is well-executed. However, the student needs to improve on providing complete definitions and explanations, especially for theoretical concepts and function descriptions.  Focus on precision and using the correct terminology from the course material.  While examples are helpful, they should be accompanied by clear explanations of the underlying principles.

@@ -1,0 +1,45 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:** The student provided a simplified definition of an algorithm, missing the key aspects of "finite set" and "well-defined instructions." The definition deserves partial credit (1.5/2.5).  The student correctly identified and explained the importance of all five characteristics (Finiteness, Definiteness, Input, Output, and Efficiency), although using slightly different terminology (Termination for Finiteness, Unambiguous for Definiteness). Full marks awarded for characteristics explanation  (5*1.5/7.5).
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student correctly explained the function's purpose and provided a working example. However, the syntax provided lacks the data type declaration (`char*`). The use of `void main()` is also incorrect; it should be `int main()`. Minor deduction for inaccurate syntax.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** Similar to `strcpy()`, the student explained the purpose and provided a working example.  The syntax lacks the return type declaration (`size_t`) and uses `void main()` instead of `int main()`. Minor deduction for inaccurate syntax.
+
+
+**Question 2b: C program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:** The student's program functions correctly and outputs the ASCII values for the entered name. However, there's a minor error in the `for` loop condition: `i<=strlen(name)` should be `i < strlen(name)`. This results in printing the null terminator's ASCII value (0), which is technically not part of the name.  Deduction for the logical error in the loop condition and missing taking input correctly using `scanf`.  `scanf("%s", name);` is correct and not `scanf("%s", &name);`.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 15.5
+* **Percentage:** 77.5%
+
+
+**Flagged Responses for Manual Review:**
+
+None. All answers were clearly matched to the corresponding questions based on content.
+
+
+**Summary:**
+
+The student demonstrates a good understanding of algorithms and their characteristics. The student also shows proficiency in basic string handling functions in C, but needs to pay more attention to precise syntax and avoiding minor logical errors in code.  The definition of the Algorithm could be more precise.  Overall, a satisfactory performance.

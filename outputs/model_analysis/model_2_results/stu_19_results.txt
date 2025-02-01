@@ -1,0 +1,51 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The definition of the algorithm is a bit simplistic compared to the answer key. It lacks the mention of "well-defined instructions" and being "precise, efficient, and structured."  However, the student correctly identified and explained all five characteristics and their importance.  Deducting 0.5 marks for the incomplete definition.
+
+**Question 2a(i): Explain strcpy() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student provided a correct example and output. However, the explanation is overly brief ("Copies one string to another").  The syntax lacks the data types (char*). Deducting 0.5 marks for lacking a complete explanation and proper syntax.
+
+**Question 2a(ii): Explain strlen() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student provided a correct example and output.  However, the explanation is overly brief ("Calculates string length"). The syntax lacks the return type (size_t) and the const qualifier for the input string. Deducting 0.5 marks for lacking a complete explanation and proper syntax.
+
+
+**Question 2b: Write a C program to read a name and output its ASCII codes.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 2
+* **Feedback:** The student attempted the program but used a non-existent function `string_length()` instead of `strlen()`. This would result in a compilation error. The logic for printing the ASCII values is correct. Awarding 2 marks for the correct attempt at input, loop structure, and output format within the loop. Deducting 3 marks for the critical error of using an undefined function, which prevents the program from compiling and running correctly.  
+
+
+**Total Score:**
+
+* **Maximum Marks:** 20
+* **Awarded Marks:** 15.5
+* **Percentage:** 77.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All answers could be clearly matched to the corresponding questions based on content.
+
+
+**Log of Unmatched or Ambiguously Matched Responses:**
+
+* None.  All responses were clearly matched.
+
+
+
+**Areas Where Student Answers Deviate from Expected Solutions:**
+
+* **Question 1:** The definition of the algorithm was less precise than the answer key.
+* **Question 2a(i) & 2a(ii):** Explanations for `strcpy()` and `strlen()` were too brief, and syntax declarations lacked detail.
+* **Question 2b:**  A significant error in using a non-existent function (`string_length`) demonstrated a lack of understanding of standard string library functions in C.  This highlights a potential area for the student to focus on for improvement.  The student should review basic string handling functions in C.

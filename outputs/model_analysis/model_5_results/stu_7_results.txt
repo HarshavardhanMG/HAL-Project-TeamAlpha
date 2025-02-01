@@ -1,0 +1,55 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  It lacks the precision and formality of the answer key but conveys the basic concept.
+    * Finiteness: Correctly explained (1.5/1.5 marks).
+    * Definiteness: Correctly explained (1.5/1.5 marks).
+    * Input: Explanation lacks depth; doesn't mention "zero or more" inputs and the importance of dynamic data handling (1/1.5 marks).
+    * Output: Explanation lacks depth; doesn't clearly state that the output represents the solution to the problem (1/1.5 marks).
+    * Effectiveness: The explanation uses "easily doable," which is less precise than "feasible" and doesn't mention time constraints (1/1.5 marks).
+
+
+**Question 2a(i): Explain strcpy() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * The student provided a very basic explanation and a working example.  
+    * Missing a formal definition and the explanation of the `const` qualifier in the syntax. The example lacks `return 0;` and  `printf()` statement's purpose explanation.
+
+
+**Question 2a(ii): Explain strlen() with syntax and example.**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Similar to `strcpy()`, the explanation is too brief.  
+    * Missing a formal definition and explanation of `size_t` return type. The example lacks `return 0;` and `printf()` statement's purpose explanation.  
+
+
+**Question 2b: Write a C program to read a name and output its ASCII codes.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:**
+    * The student provided a correct and functional program that meets all requirements.  Good use of `strlen()` within the loop.
+
+
+**Total Score:**
+
+* **Total Marks:** 15.5 / 20
+* **Percentage:** 77.5%
+
+
+**Flagged Responses (None):**
+
+All student responses were confidently matched to the corresponding questions based on content. No manual review is required.
+
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and their characteristics but needs to provide more detailed and precise explanations. The student's programming skills appear to be stronger than their theoretical knowledge, as evidenced by the fully correct program for Question 2b. The student should focus on improving the clarity and depth of their explanations for theoretical concepts and pay attention to details like syntax explanations and including `return 0;` in their C code examples.  Adding comments to explain the purpose of code segments would also be beneficial.

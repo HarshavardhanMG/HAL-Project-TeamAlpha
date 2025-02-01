@@ -1,0 +1,77 @@
+question1 answer:
+Algorithm - it's like a method to solve problems. A set of instructions. Computers use algorithms to do things.
+
+Five main things about algorithms:
+
+It should end. Important: Otherwise it will run forever.
+
+Steps should be clear. Important: No mistakes when doing it.
+
+It can take input. Important: Can work on different things.
+
+It should give output. Important: To see the result.
+
+Steps should be doable. Important: It has to be possible to do each step.
+
+question2 answer:
+2a.
+i. strcpy() - String copy: Copies a string.
+
+Syntax:
+strcpy(destination, source);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char str_one[] = "one";
+char str_two[5];
+strcpy(str_two, str_one);
+printf("%s", str_two);
+}
+
+Output:
+one
+
+ii. strlen() - String length: Finds length of string.
+
+Syntax:
+strlen(string_name)
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+void main() {
+char my_string = "example"; // Note: char instead of char[]
+int len = strlen(my_string);
+printf("Length is: %d", len);
+}
+
+Output:
+Warning or Error due to char my_string = "example";
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char n[20];
+  printf("Enter name: ");
+  scanf("%s", n);
+
+  int count = 0;
+  while (n[count] != '\0') {
+    printf("%c ascii is %d\n", n[count], n[count]);
+    count++;
+  }
+  return 0;
+}
+
+Example Output:
+Enter name: Ava
+A ascii is 65
+v ascii is 118
+a ascii is 97

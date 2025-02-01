@@ -1,0 +1,58 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm & Characteristics**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  More formal language and the mention of problem-solving would improve the answer.
+    * Characteristics:
+        * Finiteness: Correct explanation and importance (1.5/1.5 marks).
+        * Definiteness: Correct explanation and importance, used the term "Unambiguous" which is acceptable (1.5/1.5 marks).
+        * Input: Correct explanation and importance (1.5/1.5 marks).
+        * Output: Correct explanation and importance (1.5/1.5 marks).
+        * Effectiveness: Student used the term "Efficiency." While related, efficiency is a more specific aspect of effectiveness. The answer lacks the emphasis on simplicity and feasibility of individual steps. (0/1.5 marks).  
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Correct syntax and a working example provided.
+    * Missing a formal definition of the function's purpose (copying the null terminator should be mentioned). The use of `void main()` is incorrect; it should be `int main()`.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Correct explanation and a working example provided.
+    * Syntax is incomplete. It should be `size_t strlen(const char *str);`. The use of `void main()` is incorrect; it should be `int main()`. Missing a clear definition; stating it excludes the null terminator is crucial.
+
+
+**Question 2b: C Program for ASCII Codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:**
+    * The program functions correctly and outputs the ASCII values.
+    * Minor error: The loop condition `i<=strlen(name)` should be `i < strlen(name)` to avoid accessing the null terminator and printing its ASCII value (which is 0 as shown in student's output). Using `scanf("%s", name);` instead of  `scanf("%s", &name); `is also technically incorrect (though it often works due to how arrays decay into pointers) and could lead to issues with longer inputs.
+
+
+
+## Summary:
+
+* **Total Score:** 17.5 / 20
+* **Percentage:** 87.5%
+
+
+## Flagged Responses for Manual Review:
+
+* None.  All answers could be clearly matched to the corresponding questions.
+
+
+## General Comments:
+
+The student demonstrates a good understanding of the fundamental concepts related to algorithms and string handling functions in C.  The C program is functional but needs minor corrections to improve accuracy and robustness. Paying closer attention to detail, particularly in definitions and syntax, would significantly enhance the quality of the answers.  The student should be encouraged to use more precise language and to thoroughly test their code.

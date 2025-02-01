@@ -1,0 +1,55 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 9.5
+* **Feedback:** The student provided a good definition of an algorithm, capturing the core concept effectively. They correctly listed and explained all five characteristics (Finiteness, Definiteness, Input, Output, Effectiveness), demonstrating a strong understanding of their importance. However, the definition could be slightly more formal to align perfectly with the answer key's emphasis on precision and structure.  A small deduction of 0.5 marks is applied for the less formal definition.
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2.5
+* **Feedback:** The student correctly explained the purpose, provided the correct syntax, and included a functional example with accurate output. No issues found.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2.5
+* **Feedback:** The student correctly explained the purpose, provided the correct syntax, and included a functional example with accurate output. No issues found.
+
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student wrote a correct and efficient C program that accurately reads a name from the keyboard and outputs the corresponding ASCII values. The code is well-structured and easy to understand. The use of the null terminator ('\0') in the loop condition is particularly good practice.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Total Awarded Marks:** 19.5
+* **Percentage:** 97.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Log of Unmatched or Ambiguously Matched Responses:**
+
+* None
+
+
+**Areas where Student Answers Deviate from Expected Solutions:**
+
+* **Question 1 (Definition of Algorithm):** While the student's definition is conceptually correct, it lacks the formal language used in the answer key ("finite set of well-defined instructions"). This minor difference resulted in a slight deduction of marks. Encourage the student to use more precise terminology in future responses.  
+
+
+**Overall Assessment:**
+
+The student demonstrated a strong understanding of algorithms and string manipulation in C. The answers were well-structured, accurate, and demonstrated good programming practices. The minor deviation in the definition of an algorithm is the only area for improvement.  The student achieved a high score, reflecting a solid grasp of the concepts covered in the exam.

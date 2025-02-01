@@ -1,0 +1,77 @@
+question1 answer:
+Algorithm: A set of steps to solve a problem using a computer. It's like a recipe for coding.
+
+Five characteristics:
+
+Finiteness: Must end. Importance: So it gives an answer.
+
+Definiteness: Clear steps. Importance: To be understood.
+
+Input: Can have input. Importance: For different data.
+
+Output: Must give output. Importance: To get result.
+
+Effectiveness: Doable steps. Importance: To be practical.
+
+question2 answer:
+2a.
+i. strcpy() - String copy function: Copies string.
+
+Syntax:
+strcpy(destination, source);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+main() {
+char str1[] = "string1";
+char str2[10];
+strcpy(str2, str1);
+printf("Copied: %s", str2);
+}
+
+Output:
+Copied: string1
+
+ii. strlen() - String length function: Gets string length.
+
+Syntax:
+strlen(string);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+main() {
+char text = "short"; // Note: char instead of char[]
+int len = strlen(text);
+printf("Length is %d", len);
+}
+
+Output:
+Warning or Error due to char text = "short";
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char my_name[60];
+  printf("Enter name: ");
+  scanf("%s", my_name);
+
+  int counter = 0;
+  while (my_name[counter] != 0) { // Note: Using 0 instead of '\0' but works as ASCII 0 is null terminator
+    printf("%c = %d\n", my_name[counter], my_name[counter]);
+    counter = counter + 1;
+  }
+  return 0;
+}
+
+
+Example Output:
+Enter name: Luna
+L = 76
+u = 117
+n = 110
+a = 97

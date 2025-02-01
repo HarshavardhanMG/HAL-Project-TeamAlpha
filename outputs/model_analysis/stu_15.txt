@@ -1,0 +1,54 @@
+question1 answer:
+Algorithim is step by step process to do some thing, It's how computer do something by following instructions.
+important parts of an algorithim.
+
+Finiteness: It has to finish.
+
+Definiteness: clear instructions
+
+input: it might have some inputs to use
+
+output: should give some outputs
+
+effectiveness: instructions has to be valid and doable.
+
+question2 answer:
+a)
+i. strcpy() is to copy string
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[] = "test";
+char b[20];
+strcpy(b,a);
+printf("%s",b);
+}
+
+
+ii. strlen() is to get length
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char a[] = "test";
+int l = strlen(a);
+printf("%d",l);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main() {
+char name[50];
+int i;
+printf("what is your name: ");
+scanf("%s",name);
+printf("ASCII code:\n");
+for (i =0; i<strlen(name); i++) {
+printf("%c: %d\n",name[i],name[i]);
+}
+return 0;
+}

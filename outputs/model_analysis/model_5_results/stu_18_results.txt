@@ -1,0 +1,37 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:** The student provided a good analogy to explain what an algorithm is, making it understandable. However, the definition lacks the formal precision expected at this level.  While the student identified five key characteristics using simpler language, they accurately conveyed the core concepts of Finiteness, Definiteness, Input, Output, and Effectiveness. The explanations for each characteristic were also accurate, albeit informal.  Deducting 0.5 marks for the informal definition and 2 marks for not using the specific terminology (Finiteness, Definiteness, etc.) expected in a formal exam setting.
+
+**Question 2a. Explain the following string handling functions with examples. i. strcpy() - syntax and example ii. strlen()- syntax and example**
+
+* **Maximum Marks:** 5 (2.5 for each function explanation)
+* **Awarded Marks:** 3
+* **Feedback:**
+    * **strcpy():** The student correctly explained the function's purpose and provided a working example. However, the syntax provided is incorrect (missing data types). Deducting 1 mark for the incorrect syntax. The example also uses character literals ('Hello') instead of string literals ("Hello"), which is a significant error. Deducting 0.5 marks for this.
+    * **strlen():** The student explained the function's purpose correctly.  The example code has a major error: declaring a character variable (`char text = "Computer";`) instead of a character array.  This will lead to compilation errors. The syntax provided is also missing the return type and the `const` qualifier for the input string. Deducting 1.5 marks for the incorrect example and incomplete syntax.
+
+
+**Question 2b. Write a C program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:** The student's program functions correctly, reading a name and printing the ASCII values. However, there's a significant error: using an undefined function `length(myname)` instead of `strlen(myname)`. While the intended logic is correct, this would result in a compilation error. Deducting 1 mark for this error.
+
+
+**Total Score:** 7.5 + 3 + 4 = 14.5 out of 20
+
+**Percentage:** (14.5 / 20) * 100 = 72.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All responses could be matched to the corresponding questions based on content.  However, the use of `length()` in 2b requires careful consideration. While technically incorrect, it demonstrates understanding of the need to determine the string length. The examiner might consider awarding partial credit based on their specific marking scheme for syntax errors versus logical understanding.  
+
+
+**Overall Summary:**
+
+The student demonstrates a good understanding of the fundamental concepts of algorithms and string manipulation. However, the answers lack the formal rigor and precision expected in a computer science exam. There are significant errors in syntax and code in the programming questions, indicating a need for improvement in practical coding skills. The student should focus on using correct terminology, adhering to proper syntax, and thoroughly testing their code before submitting.

@@ -1,0 +1,52 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4 / 10
+* **Feedback:**
+    * The definition of the algorithm is overly simplistic and lacks precision. It doesn't mention key aspects like well-defined instructions, problem-solving, or structured approach.  (1/2.5 awarded for definition)
+    * While the student lists the five characteristics, the explanations are superficial and lack depth. They don't adequately convey the importance of each characteristic in ensuring the correctness and efficiency of an algorithm. (5 * 0.6 /1.5 awarded for characteristics - 0.6 for each minimally acceptable explanation)
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5 / 2.5
+* **Feedback:** 
+    * The student provides a correct but minimal explanation of the function's purpose.
+    * The example code is functional but lacks the `#include <stdio.h>` which, while implied in the context of the problem, is good practice and expected in a complete example.  It also lacks an explanation of the code.  
+    * Missing: Formal syntax declaration `char* strcpy(char *destination, const char *source);`  
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5 / 2.5
+* **Feedback:**
+    * The student provides a correct but minimal explanation of the function's purpose.
+    * The example code is functional but lacks the `#include <stdio.h>` and an explanation.
+    * Missing: Formal syntax declaration `size_t strlen(const char *str);`
+
+
+**Question 2b: C program for ASCII codes**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5 / 5
+* **Feedback:**
+    * The program is correctly implemented and produces the desired output.  
+    * Minor Deduction: Could improve the prompt by asking for "full name" to reduce ambiguity. `scanf("%s", name);` only reads until the first whitespace, potentially truncating the input if the user enters a multi-word name. Using `fgets` would be a more robust solution.
+
+
+**Total Score:** 11.5 / 20
+
+**Percentage:** 57.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**General Observations:**
+
+* The student demonstrates a basic understanding of the concepts but struggles with providing detailed explanations and formal definitions.
+* The programming skills are relatively good, but attention to detail and adherence to best coding practices (including comments and complete includes) need improvement.  
+* The student should be encouraged to provide more comprehensive explanations and justifications for their answers.  Greater precision in language and use of technical terminology is needed.

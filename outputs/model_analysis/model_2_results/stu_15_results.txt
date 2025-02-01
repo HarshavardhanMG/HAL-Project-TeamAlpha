@@ -1,0 +1,55 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and formality.  Missing key aspects like "well-defined" and "solve a problem."  It's more of a general description than a formal definition.
+    * Finiteness: Correct (1.5/1.5)
+    * Definiteness: Correct (1.5/1.5)
+    * Input: Correct (1.5/1.5)
+    * Output: Correct (1.5/1.5)
+    * Effectiveness: Incorrect (0/1.5). The student used the term "doable" which is not precise. The answer key uses "feasible" and links it to execution time.  The explanation in the answer key emphasizes simplicity and feasibility in terms of computational steps.
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * The student provided a correct code example demonstrating the function's usage. However, there is no explanation of the function's purpose or its syntax as requested. Missing the formal definition and the explicit syntax declaration.
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Similar to `strcpy()`, the student provides a correct code example but lacks a formal definition and explicit syntax declaration.
+
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:**
+    * The student's code is correct and functions as expected. It correctly reads the name, iterates through each character, and prints the corresponding ASCII value.  Minor variation in the prompt ("what is your name" vs "Enter your name") is acceptable.
+
+
+
+## Summary:
+
+* **Total Score:** 15 / 20
+* **Percentage:** 75%
+
+## Flagged Responses for Manual Review:
+
+* None. All answers could be clearly matched to the corresponding questions based on content.  While some answers lacked detail, they were clearly addressing the specific question asked.
+
+
+## Areas for Improvement:
+
+* **Formal Definitions:** The student needs to work on providing formal and precise definitions, especially for technical terms like "algorithm" and function descriptions.
+* **Syntax and Declarations:**  When explaining programming functions, the student should explicitly state the syntax and provide a clear definition, not just a code example.
+* **Precise Language:** Using precise terminology is crucial in technical subjects. The student should avoid informal words like "doable" and instead use more accurate terms like "feasible" or "computable."  Pay close attention to the specific wording used in the answer key.

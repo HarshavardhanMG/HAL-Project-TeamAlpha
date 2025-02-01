@@ -1,0 +1,9 @@
+1.Define Algorithm.List five important characteristics of an algorithm. Explain the importance of each characteristic.
+
+2.a. Explain the following string handling functions with examples.
+i. strcpy() - syntax and example 
+ii. strlen()- syntax and example 
+
+b. Write a C program, which reads your name from the keyboard and outputs a
+list of ASCIIcodes, which represent your name.
+Program 

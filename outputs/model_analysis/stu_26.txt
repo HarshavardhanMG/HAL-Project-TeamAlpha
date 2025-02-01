@@ -1,0 +1,84 @@
+question1 answer:
+Definition of Algorithm:
+An algorithm is like a set of rules or steps that you follow to solve a problem or complete a task. It's a clear and ordered way of doing things. Think of it as a detailed plan.
+
+Five Important Characteristics of an Algorithm:
+
+Must End: An algorithm should always stop after a certain number of steps. This is important because if it doesn't stop, it will just keep running forever and never give you an answer. We need it to finish and give us a solution.
+
+Clear Steps: Each step in an algorithm must be very clear and easy to understand. There should be no confusion about what to do at each step. This is important so that everyone understands the algorithm the same way and it works correctly every time.
+
+Needs Input: An algorithm can take some things as input to work with. Input is the information that the algorithm uses to solve the problem. This is important because it allows the algorithm to be used for different situations and different data.
+
+Gives Output: An algorithm must produce some result or output. This is the answer to the problem that the algorithm is solving. This is the main reason we use algorithms – to get a result.
+
+Possible to Do: Each step in the algorithm should be something that can actually be done. It should be practical and achievable. This is important because we need to be able to actually follow the steps of the algorithm and get to the solution.
+
+question2 answer:
+2a.
+i. strcpy() - String Copy Function: This function is used for copying one string to another string.
+
+Syntax:
+strcpy(to, from);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char source_str[] = "Example";
+char dest_str[10];
+strcpy(dest_str, source_str);
+printf("Destination string: %s", dest_str);
+return 0;
+}
+
+Output:
+Destination string: Example
+
+ii. strlen() - String Length Function: This function is used to find out how long a string is.
+
+Syntax:
+strlen(string_name);
+
+Example:
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+char text_string[] = "Testing";
+int length_of_string = strlen(text_string);
+printf("The length is: %d", length_of_string);
+return 0;
+}
+
+Output:
+The length is: 7
+
+2b.
+
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+  char myName[50];
+
+  printf("Please enter your name: ");
+  scanf("%s", myName);
+
+  printf("ASCII values for your name:\n");
+  for (int x = 1; x <= strlen(myName); x++) { // Note: starting from 1 and <= strlen
+    printf("%c: %d\n", myName[x-1], myName[x-1]);
+  }
+
+  return 0;
+}
+
+
+Example Output:
+Please enter your name: Zara
+ASCII values for your name:
+Z: 90
+a: 97
+r: 114
+a: 97

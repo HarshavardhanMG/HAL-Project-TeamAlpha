@@ -1,0 +1,48 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: The student's definition of an algorithm is simplistic and lacks precision. It doesn't mention the key aspects of well-defined instructions, problem-solving, or the need for structure. (1.5/2.5 marks awarded)
+    * Characteristics: The student correctly identifies all five characteristics and provides reasonable explanations for each, demonstrating understanding of their importance.  However, the explanations lack the formal terminology and depth expected in an expert answer.  For instance, mentioning "infinite loop" for Finiteness is good, but not elaborating on resource consumption or halting problems is a minor drawback.  Similarly, for Definiteness, clarity for the "computer" is highlighted, but the broader concept of unambiguous interpretation regardless of the executor is missing. (Each characteristic awarded 1.2/1.5 marks)
+
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** 
+    * The student provides a correct, concise definition and a functional example. However, the syntax is missing, and there's no explanation of the parameters (destination and source).
+
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**
+    * Similar to strcpy(), the student provides a correct definition and example but omits the function's syntax and doesn't explain the return type (size_t) or the null terminator's role.  The explanation could also mention potential issues if strlen() is used on a non-null-terminated character array.  
+
+
+**Question 2b: C program for ASCII values of name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * The program is functionally correct and well-structured. The student uses appropriate variable names and includes necessary headers. However, minor deductions for:
+        * Lack of input validation: The `scanf` function without a width specifier is vulnerable to buffer overflow if the user inputs a name longer than the array size.
+        * Prompt clarity: "enter name:" could be more informative (e.g., "Enter your name (up to 49 characters):"). These considerations are crucial for robust code.
+
+
+
+**Summary:**
+
+* **Total Score:** 18 / 20
+* **Percentage:** 90%
+
+**Flagged Responses for Manual Review:**
+
+* None. All answers were clearly matched to the corresponding questions based on content.  
+
+**Overall Feedback:**  The student demonstrates a good understanding of the fundamental concepts of algorithms and basic string manipulation in C. However, the answers lack the precision, completeness, and formal language expected at an expert level.  Attention to detail, such as including function syntax and considering edge cases in code, would significantly improve the quality of the responses. The student should focus on providing more comprehensive explanations and adhering to best practices in programming.

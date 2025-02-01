@@ -1,0 +1,47 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2 out of 2.5 marks).  Lacks the precision of the reference answer but conveys the core concept.
+    * Finiteness: Explained correctly using simpler language (1.5 marks).
+    * Definiteness: Explained correctly using simpler language (1.5 marks).
+    * Input: Explained correctly using simpler language (1.5 marks).
+    * Output: Explained correctly using simpler language (1.5 marks).
+    * Effectiveness: The student used the term "Possible to Do" which captures the essence of effectiveness but lacks the formal terminology. (0 out of 1.5 marks).  Should have used terms like 'feasible' or 'executable'.
+
+
+**Question 2a: Explain `strcpy()` and `strlen()` with examples.**
+
+* **Maximum Marks:** 5 (2.5 for each function)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * `strcpy()`: Provided correct explanation, syntax, and a working example. However, the syntax provided is less formal than the expected `char* strcpy(char *destination, const char *source);` (2.5 Marks)
+    * `strlen()`: Provided correct explanation and a working example. Syntax is again less formal, missing the return type and const correctness. (1.5 out of 2.5 marks).
+
+
+**Question 2b: Write a C program to print ASCII values of your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:**
+    * The program functions correctly and produces the desired output. However, the loop starts from 1 instead of the conventional 0, necessitating the use of `myName[x-1]` inside the loop. This is less efficient and slightly deviates from standard practice. (-1 mark for unconventional loop implementation)
+
+
+**Total Score:**
+
+* **Total Marks:** 15
+* **Marks Obtained:** 14.5
+* **Percentage:** 96.67%
+
+
+**Flagged Responses for Manual Review:**
+
+* None
+
+
+**Summary:**
+
+The student demonstrates a good understanding of the fundamental concepts of algorithms and string manipulation in C.  While the answers are generally correct, there are minor deductions for lacking formal terminology in the algorithm definition and for a slightly less efficient loop implementation in the C program. The student could benefit from focusing on using precise language and adhering to standard coding conventions.  The use of simpler language in Question 1, while conveying understanding, should be addressed to encourage the use of more formal terminology.

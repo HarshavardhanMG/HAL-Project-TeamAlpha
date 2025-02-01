@@ -1,0 +1,41 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:** 
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  It lacks the precision of the reference answer but conveys the core concept.
+    * Finiteness: Correct explanation (1.5/1.5 marks).
+    * Definiteness: Correct explanation (1.5/1.5 marks).
+    * Input: Correct explanation (1.5/1.5 marks).
+    * Output: Correct explanation (1.5/1.5 marks).
+    * Effectiveness: The student's explanation focuses on simplicity and feasibility, missing the crucial aspect of *efficiency* mentioned in the answer key. (1/1.5 marks).  While "realistic and doable" implies feasibility, it doesn't fully capture the intended meaning of effectiveness in algorithmic context.
+
+
+**Question 2a: Explain `strcpy()` and `strlen()` with examples.**
+
+* **Maximum Marks:** 5 (2.5 for each function)
+* **Awarded Marks:** 3
+* **Feedback:**
+    * `strcpy()`: The student provided a very basic explanation and a correct, albeit minimal, example. Missing a formal definition and the syntax. (1/2.5 marks)
+    * `strlen()`:  The student provided a basic explanation and a correct, minimal example. Missing a formal definition and the syntax. (2/2.5 marks). The example is better than the one for strcpy and demonstrates understanding of the function's purpose.
+
+
+**Question 2b: Write a C program to print ASCII values of your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 5
+* **Feedback:** The student's C program is correct and functions as expected. It accurately reads the name from the keyboard and prints the corresponding ASCII values.  Good use of `strlen()` within the loop.
+
+
+**Summary:**
+
+* **Total Score:** 15.5 / 20
+* **Percentage:** 77.5%
+
+**Flagged Responses for Manual Review:** None
+
+**Overall Feedback:**
+
+The student demonstrates a basic understanding of algorithms and their characteristics. However, the answers lack the formality and precision expected at a higher level. The student needs to focus on providing complete definitions, including formal syntax where applicable (especially for programming questions). While the programming skills are evident in the last question,  more attention should be paid to thoroughly explaining concepts and providing comprehensive examples that showcase a deeper understanding of the topic.  The student should review the difference between *effectiveness* and *efficiency* in the context of algorithms.

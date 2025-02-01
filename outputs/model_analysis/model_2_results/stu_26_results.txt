@@ -1,0 +1,41 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm. List five important characteristics of an algorithm. Explain the importance of each characteristic.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  It lacks the precision of the reference answer but conveys the core concept.
+    * Characteristics:
+        * Finiteness: Correctly explained (1.5/1.5 marks).
+        * Definiteness: Correctly explained (1.5/1.5 marks).
+        * Input: Correctly explained (1.5/1.5 marks).
+        * Output: Correctly explained (1.5/1.5 marks).
+        * Effectiveness: While the student's explanation of "Possible to Do" captures the essence of effectiveness, it lacks the formal terminology. (1/1.5 marks).  Should have used the term "effectiveness" and mentioned feasibility/practicality in relation to execution time/resources.
+
+
+**Question 2a: Explain the following string handling functions with examples. i. strcpy() - syntax and example ii. strlen()- syntax and example**
+
+* **Maximum Marks:** 5 (2.5 for each function)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * `strcpy()` :  The student provided a correct explanation and a working example. However, the syntax provided is simplified and doesn't explicitly mention the data types of the arguments (char*). (2/2.5 marks).
+    * `strlen()` : The student provided a correct explanation and a working example. However, the syntax provided is simplified and doesn't explicitly mention the return type (size_t) or the const qualifier for the input string. (2/2.5 marks)
+
+
+**Question 2b: Write a C program, which reads your name from the keyboard and outputs a list of ASCII codes, which represent your name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:** The student's program is functionally correct and produces the desired output. However, there's a minor error in the `for` loop initialization and condition:  `for (int x = 1; x <= strlen(myName); x++)`. While it works due to `myName[x-1]`, it's not the standard way to iterate through an array in C.  Arrays start at index 0, and the loop should continue as long as `x` is *less than* the string length. (4/5 marks). Deducting 1 mark for non-standard loop implementation that could lead to confusion.
+
+
+
+**Total Score:** 15.5 / 20
+
+**Percentage:** 77.5%
+
+
+**Flagged Responses for Manual Review:** None
+
+**Summary:** The student demonstrates a good understanding of the fundamental concepts of algorithms and string handling functions in C.  Minor deductions were made for lack of precision in terminology and a slightly flawed loop implementation. The overall performance is good.

@@ -1,0 +1,48 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics (10 marks)**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 8.5
+* **Feedback:** The student provided a correct, albeit less detailed, definition of an algorithm.  All characteristics were correctly identified and explained with their importance. However, the definition could have been more comprehensive, mentioning the finite nature and well-defined instructions aspect more explicitly.  -1.5 marks deducted for the less precise definition.
+
+**Question 2a(i): strcpy() function (2.5 marks)**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:** The student provided a correct example and output. However, the syntax provided is missing the data types (char*). The definition lacks the crucial detail about copying the null terminator. -0.5 marks deducted for incomplete syntax and definition.
+
+**Question 2a(ii): strlen() function (2.5 marks)**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 2
+* **Feedback:**  The student provided a correct example and output. However, the syntax is missing the return type (size_t) and the const qualifier for the input string. The definition lacks the detail about excluding the null terminator in the length calculation. -0.5 marks deducted for incomplete syntax and definition.
+
+
+**Question 2b: C Program for ASCII values (5 marks)**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 2
+* **Feedback:** The student attempted the program correctly by taking input and using a loop to iterate through the string. However, a crucial error was made by using a non-existent function `string_length()` instead of `strlen()`. This resulted in a compilation error. The program logic is correct, but the implementation error significantly impacts functionality. -3 marks deducted for the compilation error and incorrect function usage.  Partial credit given for correct input and loop structure.
+
+
+**Summary:**
+
+* **Total Score:** 14.5 / 20
+* **Percentage:** 72.5%
+
+**Flagged Responses for Manual Review:**
+
+* None. All answers could be clearly matched to the corresponding questions based on content.
+
+
+**Log of Unmatched or Ambiguously Matched Responses:**
+
+* None.  All responses were clearly matched.
+
+
+**Areas where Student Answers Deviate from Expected Solutions:**
+
+* **Question 1:** Algorithm definition lacked precision and completeness.
+* **Question 2a(i) & 2a(ii):** Syntax and definitions for string functions were incomplete.
+* **Question 2b:**  Significant error in using a non-existent function, leading to compilation failure.  While the logic was partially correct, the implementation was flawed.  This highlights a potential lack of understanding in standard library functions and debugging skills.  Recommend focusing on strengthening fundamental programming concepts and familiarizing the student with common C library functions.

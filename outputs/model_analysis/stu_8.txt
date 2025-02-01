@@ -1,0 +1,60 @@
+question1 answer:
+An algorithm is like a recipe, but for computers. It’s a set of instructions on how to complete a task. It must be detailed so the computer can follow it correctly.
+Here are 5 things an algorithm must have:
+
+It has to finish: it should not go on and on and on. The steps must end eventually.
+
+Each step should be clear: there shouldn’t be any confusion in any of the steps of the algorithm. The instructions must be very clear and precise.
+
+Algorithm might need input: An algorithm may or may not have input.
+
+Algorithm has to give output: The output is the goal of the algorithm. Algorithm is designed to produce specific output.
+
+Algorithm should be effective : All the steps of the algorithm must be easy to understand and doable by the computer.
+
+question2 answer:
+a)
+i. strcpy(): copy one string to another string.
+Example
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char a[] = "hello";
+char b[10];
+strcpy(b,a);
+printf("%s",b);
+}
+
+
+ii. strlen(): get length of the string
+Example
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char a[] = "hello";
+int l = strlen(a);
+printf("%d",l);
+}
+
+
+b)
+
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+char name[50];
+int i;
+printf("Enter name : ");
+scanf("%s",name);
+printf("ASCII Values: \n");
+for(i = 0; i< strlen(name);i++)
+{
+printf("%c: %d \n",name[i],name[i]);
+}
+return 0;
+}

@@ -1,0 +1,39 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4
+* **Feedback:** The student provided a very basic definition of an algorithm, lacking the crucial aspects of well-defined instructions, problem-solving, precision, efficiency, and structure.  While the student listed the five characteristics, the explanations were superficial and lacked depth in explaining their importance.  The student needs to elaborate on how each characteristic contributes to a valid and useful algorithm.  For example, finiteness ensures termination, definiteness ensures consistent execution, input allows for flexibility, output provides the solution, and effectiveness ensures practical implementation.
+
+**Question 2a(i): strcpy() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** The student provided a correct code example demonstrating the usage of `strcpy()`. However, the definition and formal syntax declaration are missing.  The answer lacks a proper explanation of the function's purpose (copying the content of one string to another) and its potential pitfalls (buffer overflow if the destination is not large enough).
+
+**Question 2a(ii): strlen() function**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:** Similar to the `strcpy()` answer, the student demonstrated a correct code example for `strlen()`. However, the formal definition, syntax declaration ( `size_t strlen(const char *str);` ), and a comprehensive explanation of its purpose (calculating the length of a string excluding the null terminator) are missing.
+
+**Question 2b: C program for ASCII values of a name**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:** The student's C program is functionally correct and accomplishes the task of printing the ASCII values of the entered name. However, minor deductions are made for lack of clarity in prompting the user ( "enter your name" could be more informative, like "Enter your name: ").  Also, good practice dictates checking the return value of `scanf` to ensure successful input.
+
+
+**Total Score:**
+
+* **Total Maximum Marks:** 20
+* **Total Awarded Marks:** 11.5
+* **Percentage:** 57.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Overall Summary:**
+
+The student demonstrates a basic understanding of the concepts but lacks depth and precision in their explanations. The code examples are generally correct, but the answers are missing crucial elements like formal definitions, syntax declarations, and comprehensive explanations of function behaviors. The student needs to focus on providing more complete and detailed answers, demonstrating a deeper understanding of the underlying principles.  More attention should be paid to standard coding practices and providing clear user prompts.

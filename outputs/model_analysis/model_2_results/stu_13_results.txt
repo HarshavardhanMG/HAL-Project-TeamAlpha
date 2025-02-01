@@ -1,0 +1,54 @@
+## Evaluation of Student Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and completeness.  Missing key elements like "well-defined," "finite set," and "solve a problem."  While the analogy to a machine following instructions is helpful, it's not a formal definition.
+    * Finiteness: Correct concept (1.5/1.5).
+    * Definiteness: Correct concept (1.5/1.5).
+    * Input: Correct concept (1.5/1.5).
+    * Output: Correct concept (1.5/1.5).
+    * Effectiveness: Incorrect explanation (0/1.5). The student's answer "It should be something that can work" is vague and doesn't convey the meaning of effectiveness in the context of algorithms (feasible and implementable steps).
+
+
+**Question 2a(i): strcpy()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correct example and basic understanding of functionality (1.5/2.5).
+    * Missing formal definition and syntax.  The student only provided a simple code example without explaining what `strcpy` does or its formal syntax.
+
+
+**Question 2a(ii): strlen()**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Correct example and basic understanding of functionality (1.5/2.5).
+    * Missing formal definition and syntax. Similar to `strcpy`, the student needs to provide a definition and the function's syntax.  
+
+
+**Question 2b: C Program for ASCII values**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4.5
+* **Feedback:**
+    * Correctly implemented program with accurate output (4.5/5).
+    * Minor deduction for less informative prompt ("name is?" instead of a clearer prompt like "Enter your name:").  While functionally correct, clear prompts improve user experience.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 12.5
+* **Percentage:** 62.5%
+
+
+**Flagged Responses for Manual Review:**  None
+
+**Summary:**
+
+The student demonstrates a basic understanding of algorithms and string functions but lacks precision and completeness in definitions and explanations. The student excels in practical programming, as evidenced by the correct implementation of the ASCII code program.  The student needs to focus on providing formal definitions, syntax for functions, and clearer explanations of core concepts.  More attention should be paid to the specific wording used in the answer key to ensure full credit is earned.

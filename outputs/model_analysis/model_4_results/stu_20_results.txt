@@ -1,0 +1,48 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics.**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 7.5
+* **Feedback:**
+    * Definition: Student provided a simplified but acceptable definition of an algorithm (2/2.5 marks).  Missing the crucial aspects of "finite set" and "well-defined instructions".
+    * Characteristics:
+        * Finiteness: Explained correctly with the importance of termination (1.5/1.5 marks).
+        * Definiteness: Explained correctly using the term "unambiguous" and highlighting the importance of clarity (1.5/1.5 marks).
+        * Input: Explained correctly with the importance of handling variable data (1.5/1.5 marks).
+        * Output: Explained correctly with the importance of providing a result (1.5/1.5 marks).
+        * Effectiveness: While the student mentioned efficiency, they didn't fully capture the concept of "effectiveness" as defined in the answer key, which focuses on simplicity and feasibility of each step. (0/1.5 marks).  The student's answer is closer to a description of "efficiency" which is a desirable but separate characteristic.
+
+
+**Question 2a: Explain `strcpy()` and `strlen()` with examples.**
+
+* **Maximum Marks:** 5 (2.5 for each function)
+* **Awarded Marks:** 4
+* **Feedback:**
+    * `strcpy()`: Syntax and example are correct, but the definition lacks the detail of "copying the content of one string into another." (2/2.5 marks). Using `void main()` is incorrect; should be `int main()`.
+    * `strlen()`: Syntax is slightly incorrect (missing `const char *str`). The example and output are correct, and the definition is adequate. (2/2.5 marks). Using `void main()` is incorrect; should be `int main()`.
+
+
+**Question 2b: C program to print ASCII values of name.**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 4
+* **Feedback:**
+    * The program logic is mostly correct, but there's a minor error in the `for` loop condition: `i<=strlen(name)` should be `i < strlen(name)`. This results in printing the null terminator's ASCII value. (4/5 marks).  Should use `fgets` instead of `scanf` for safer string input.  Missing error handling for input that exceeds buffer size.
+
+
+**Total Score:**
+
+* **Total Marks:** 20
+* **Marks Obtained:** 15.5
+* **Percentage:** 77.5%
+
+
+**Flagged Responses for Manual Review:**
+
+* None. All responses could be confidently matched to the corresponding questions based on content.
+
+
+**Summary:**
+
+The student demonstrates a good understanding of algorithms and basic string handling functions in C.  However, there are minor inaccuracies and omissions in definitions and code that prevent a perfect score.  The student should pay closer attention to precise definitions and boundary conditions in coding.  Reinforce the difference between "efficiency" and "effectiveness" in the context of algorithm design.  Emphasize best practices in C programming, such as using `int main()`, `fgets` for string input, and including appropriate error handling.

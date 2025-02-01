@@ -1,0 +1,64 @@
+## Evaluation of Student's Answers:
+
+**Question 1: Define Algorithm and its characteristics (10 marks)**
+
+* **Maximum Marks:** 10 (2.5 for definition + 5 * 1.5 for characteristics)
+* **Awarded Marks:** 6.5
+* **Feedback:**
+    * Definition: Partially correct (1.5/2.5). The definition lacks precision and important elements like "finite set" and "well-defined instructions."  It's more of a layman's explanation.
+    * Finiteness: Correct understanding but lacks technical terminology (1/1.5).
+    * Definiteness: Correct understanding but lacks technical terminology (1/1.5).
+    * Input: Correct understanding (1.5/1.5).
+    * Output: Correct understanding (1.5/1.5).
+    * Effectiveness: Correct understanding but described as "possible to do," which is less precise than "feasible" (1/1.5).
+
+
+**Question 2a(i): strcpy() (2.5 marks)**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Definition: Missing a formal definition of the function's purpose.
+    * Syntax: Incorrect syntax, missing data types and `const` (0/1).
+    * Example: Correct functionality demonstrated, but `void main()` is incorrect; should be `int main()` (1.5/1.5).  Missing `return 0;`.
+
+
+**Question 2a(ii): strlen() (2.5 marks)**
+
+* **Maximum Marks:** 2.5
+* **Awarded Marks:** 1.5
+* **Feedback:**
+    * Definition: Missing a formal definition of the function's purpose, simply stating its general function.
+    * Syntax: Incorrect syntax, missing data type and `const` (0/1).
+    * Example: Correct functionality demonstrated, but `void main()` is incorrect; should be `int main()`(1.5/1.5). Missing `return 0;`.
+
+
+**Question 2b: C Program for ASCII codes (5 marks)**
+
+* **Maximum Marks:** 5
+* **Awarded Marks:** 3
+* **Feedback:**
+    * The program compiles and runs, but uses `sizeof(myname)` incorrectly in the loop condition. `sizeof` returns the size of the array in bytes, not the length of the string.  This could lead to reading beyond the allocated memory. (2/3)
+    *  The student added a null check (`if (myname[i] != '\0')`) which prevents an immediate error in this specific case, but it doesn't address the fundamental misuse of `sizeof`.  
+    * Correctly prints the ASCII values for the entered name (1/1).
+    * Missing handling of potential buffer overflow when using `scanf("%s", myname);`. (0/1)  Should use something like `scanf("%29s", myname);` to prevent reading more characters than the buffer can handle.
+
+
+**Summary:**
+
+* **Total Score:** 13 / 20
+* **Percentage:** 65%
+
+
+**Flagged Responses for Manual Review:**  None
+
+
+**Log of Unmatched or Ambiguously Matched Responses:** None
+
+
+**Areas for Improvement:**
+
+* The student needs to work on providing more precise and technically accurate definitions.
+* Understanding of function syntax needs improvement.  Include data types and `const` where appropriate.
+* Crucial to understand the difference between `sizeof` and `strlen` and how to prevent buffer overflows.  `sizeof` operator provides the size of the data type (e.g., the entire array), while `strlen` provides the length of the null-terminated string.
+* Replace `void main()` with `int main()` and include `return 0;` in C programs.  `void main()` is not standard C and can cause portability issues.  `int main()` signifies that the program returns an integer exit status to the operating system.  `return 0;` indicates successful execution.
