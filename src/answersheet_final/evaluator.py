@@ -46,7 +46,16 @@ class DocumentProcessor:
     def __init__(self):
         self.rate_limiter = RateLimiter()
         genai.configure(api_key='AIzaSyBhqjzqPaPPXSKV7CHrkPEg6I-j13NnR9M')
-        self.model = genai.GenerativeModel('gemini-pro')
+        generation_config = {
+            "temperature": 0.7,
+            "top_p": 1.0,
+            "top_k": 50,
+            "max_output_tokens": 10240,
+        }
+        self.model = genai.GenerativeModel(
+            model_name="learnlm-1.5-pro-experimental",
+            generation_config=generation_config
+        )
 
     def process_text(self, question_paper_text, answer_key_text, student_text):
         max_retries = 3
@@ -73,8 +82,8 @@ class DocumentProcessor:
 
 Question Paper: Contains the questions, associated diagrams, formulas, and instructions.
 Reference Answer Key: Contains the correct answers, detailed solution steps, alternative acceptable responses, and partial marking guidelines.
-Student Answer Sheet: Contains the student’s responses, which might have missing, incorrect, or mismatched question numbers.
-Your task is to evaluate the student’s answers by comparing them with the reference answers and the questions. Your evaluation should be robust enough to handle cases where question numbers are missing or mismatched. Use semantic analysis, keyword extraction, and contextual clues (e.g., formulas, diagrams, key phrases) to map and assess the responses.
+Student Answer Sheet: Contains the student's responses, which might have missing, incorrect, or mismatched question numbers.
+Your task is to evaluate the student's answers by comparing them with the reference answers and the questions. Your evaluation should be robust enough to handle cases where question numbers are missing or mismatched. Use semantic analysis, keyword extraction, and contextual clues (e.g., formulas, diagrams, key phrases) to map and assess the responses.
 
 Instructions:
 
@@ -94,7 +103,7 @@ Use any provided question numbers to map responses to the corresponding question
 Content-Based Matching (for missing or mismatched numbers):
 
 Use semantic similarity metrics to map responses based on key phrases, formulas, or diagram references.
-Mark such responses as “Matched Based on Content” for reference in the feedback.
+Mark such responses as "Matched Based on Content" for reference in the feedback.
 Ambiguity Handling:
 
 If multiple possible matches occur or the confidence is lower, choose the best match based on semantic similarity.
@@ -102,7 +111,7 @@ Note: Do not penalize scores heavily for low-confidence matching if the content 
 3. Answer Evaluation and Scoring
 Evaluation Logic for Each Question:
 Correctness Check:
-Compare the student’s response directly with the reference answer.
+Compare the student's response directly with the reference answer.
 Ensure that if the answer fully matches the reference answer (even if provided with a different question number), the full marks are awarded.
 Partial Credit (if applicable):
 Award partial marks only if the response is missing minor steps or details, according to the reference guidelines.
@@ -111,8 +120,8 @@ Confidence Calibration:
 If the semantic similarity score is high (above a defined threshold, e.g., 0.85 or as calibrated), treat the response as correct and assign full marks.
 For responses with minor deviations (e.g., formatting or labeling issues), deduct only minimal marks.
 Feedback Generation:
-Provide specific, detailed feedback such as “Fully correct answer – all steps and reasoning are accurate” or “Minor detail missing – awarded partial credit.”
-If matched by content rather than number, note “Response matched based on content analysis.”
+Provide specific, detailed feedback such as "Fully correct answer – all steps and reasoning are accurate" or "Minor detail missing – awarded partial credit."
+If matched by content rather than number, note "Response matched based on content analysis."
 Important: Ensure that scoring is calibrated so that correct and complete responses are not undervalued. Verify that full correctness leads to full marks unless there are explicitly defined errors.
 4. Output Format
 For each evaluated question, provide a detailed breakdown:
@@ -125,7 +134,7 @@ Awarded Marks:
 Show the marks the student earned after evaluation.
 Detailed Feedback:
 Provide comments on the strengths of the answer and any specific errors or missing details.
-Indicate if the answer was “Matched Based on Content” when applicable.
+Indicate if the answer was "Matched Based on Content" when applicable.
 Final Summary Section:
 
 Total Marks Awarded:

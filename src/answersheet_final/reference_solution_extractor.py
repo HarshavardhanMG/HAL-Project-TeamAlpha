@@ -51,7 +51,7 @@ class RateLimiter:
         
     def reset_daily_counts(self):
         today = datetime.now().date()
-        self.daily_counts = {api_id: {'count': 0, 'date': today} for api_id in range(5)}
+        self.daily_counts = {api_id: {'count': 0, 'date': today} for api_id in range(10)}
     
     def can_make_request(self, api_id):
         current_time = time.time()
@@ -81,6 +81,11 @@ class RateLimiter:
 class DocumentProcessor:
     def __init__(self):
         self.api_keys = [
+            "AIzaSyAYouNM2dwlckjRk_WfBKnhljZdtq9ICto",
+            "AIzaSyB7Yw_C_fX2Jx71Bh0wVPjVJZnorlC7Qck",
+            "AIzaSyBKp_i_ZpNAYPEuwbQWq92ByRkJYHwLsLc",
+            "AIzaSyDKpOQsllJHpxG5L3MtQywLzE-mifAMIys",
+            "AIzaSyAbih5qR7bPl2bsiIuOrFpdyQLbNnTCxZM",
             "AIzaSyBhqjzqPaPPXSKV7CHrkPEg6I-j13NnR9M",
             "AIzaSyCjzP5q9drpBf7dq2-lut4mkpcv2cPXrYo",
             "AIzaSyDFEz3Fsw8YENh-phqcq2Xj0zBhedJ3XyE",
@@ -119,7 +124,7 @@ class DocumentProcessor:
             os.makedirs(dir_path)
         
         chunk_dirs = []
-        for i in range(5):
+        for i in range(10):
             chunk_dir = os.path.join(self.temp_dir, f'chunk_{i}')
             os.makedirs(chunk_dir)
             chunk_dirs.append(chunk_dir)
@@ -267,11 +272,11 @@ Special Instructions:
 
     def distribute_images(self, image_paths, chunk_dirs):
         total_images = len(image_paths)
-        images_per_chunk = total_images // 5
-        remainder = total_images % 5
+        images_per_chunk = total_images // 10
+        remainder = total_images % 10
         
         start_idx = 0
-        for i in range(5):
+        for i in range(10):
             chunk_size = images_per_chunk + (1 if i < remainder else 0)
             chunk_images = image_paths[start_idx:start_idx + chunk_size]
             
