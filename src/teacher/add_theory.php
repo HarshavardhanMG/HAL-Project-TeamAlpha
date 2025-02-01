@@ -75,12 +75,7 @@ if (isset($_GET['delete_id']) && $teacher_id) {
                     <span>Notes</span>
                 </a>
             </li>
-            <li>
-                <a href="#" onclick="showSection('teacher-info'); return false;" id="teacher-info-link">
-                    <i class="fas fa-user"></i>
-                    <span>Teacher Information</span>
-                </a>
-            </li>
+           
             <li class="logout">
                 <a href="logout.php">
                     <i class="fas fa-sign-out-alt"></i>
