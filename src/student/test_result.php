@@ -66,12 +66,7 @@ unset($_SESSION['test_result']); // Clear the result from session
                     <span>Take Test</span>
                 </a>
             </li>
-            <li>
-                <a href="#" onclick="showStudentInfo(); return false;">
-                    <i class="fas fa-user"></i>
-                    <span>Student Information</span>
-                </a>
-            </li>
+            
             <li class="logout">
                 <a href="logout.php">
                     <i class="fas fa-sign-out-alt"></i>
