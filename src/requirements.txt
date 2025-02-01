@@ -1,0 +1,15 @@
+# PDF processing
+pdf2image>=1.16.3
+
+# Google AI integration
+google-generativeai>=0.3.0
+
+# Image processing
+Pillow>=10.0.0
+
+# Logging and utilities
+absl-py>=1.0.0
+
+# Threading and concurrency
+futures>=3.0.5
+
