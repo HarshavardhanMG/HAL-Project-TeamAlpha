@@ -45,7 +45,7 @@ class RateLimiter:
 class DocumentProcessor:
     def __init__(self):
         self.rate_limiter = RateLimiter()
-        genai.configure(api_key='AIzaSyBhqjzqPaPPXSKV7CHrkPEg6I-j13NnR9M')
+        genai.configure(api_key='insert your api key here')
         generation_config = {
             "temperature": 0.7,
             "top_p": 1.0,

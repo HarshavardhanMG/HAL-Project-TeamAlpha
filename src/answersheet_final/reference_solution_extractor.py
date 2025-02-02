@@ -81,16 +81,7 @@ class RateLimiter:
 class DocumentProcessor:
     def __init__(self):
         self.api_keys = [
-            "AIzaSyAYouNM2dwlckjRk_WfBKnhljZdtq9ICto",
-            "AIzaSyB7Yw_C_fX2Jx71Bh0wVPjVJZnorlC7Qck",
-            "AIzaSyBKp_i_ZpNAYPEuwbQWq92ByRkJYHwLsLc",
-            "AIzaSyDKpOQsllJHpxG5L3MtQywLzE-mifAMIys",
-            "AIzaSyAbih5qR7bPl2bsiIuOrFpdyQLbNnTCxZM",
-            "AIzaSyBhqjzqPaPPXSKV7CHrkPEg6I-j13NnR9M",
-            "AIzaSyCjzP5q9drpBf7dq2-lut4mkpcv2cPXrYo",
-            "AIzaSyDFEz3Fsw8YENh-phqcq2Xj0zBhedJ3XyE",
-            "AIzaSyAXwnBiaXvNGNiAAiUM48vXoKcppBoU",
-            "AIzaSyCWLrLSpAXl-JBc6D6bX5Y6v8URlc11xrM"
+            "insert your api keys here(10)"
         ]
         self.models = self.initialize_apis()
         self.base_dir = os.path.dirname(os.path.abspath(__file__))

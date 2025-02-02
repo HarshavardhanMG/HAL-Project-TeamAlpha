@@ -48,11 +48,7 @@ class RateLimiter:
 class DocumentProcessor:
     def __init__(self):
         self.api_keys = [
-            "AIzaSyAYouNM2dwlckjRk_WfBKnhljZdtq9ICto",
-            "AIzaSyB7Yw_C_fX2Jx71Bh0wVPjVJZnorlC7Qck",
-            "AIzaSyBKp_i_ZpNAYPEuwbQWq92ByRkJYHwLsLc",
-            "AIzaSyDKpOQsllJHpxG5L3MtQywLzE-mifAMIys",
-            "AIzaSyAbih5qR7bPl2bsiIuOrFpdyQLbNnTCxZM"
+            "insert your api keys here(5)"
         ]
         self.models = self.initialize_apis()
         self.rate_limiter = RateLimiter()
