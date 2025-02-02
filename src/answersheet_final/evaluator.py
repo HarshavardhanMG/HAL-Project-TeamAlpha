@@ -80,54 +80,28 @@ class DocumentProcessor:
 
                 You are provided with three documents:
 
-Question Paper: Contains the questions, associated diagrams, formulas, and instructions.
+Question Paper: Contains the questions, marks assigned to each question and the maximum marks for which the students writes the exam. 
 Reference Answer Key: Contains the correct answers, detailed solution steps, alternative acceptable responses, and partial marking guidelines.
 Student Answer Sheet: Contains the student's responses, which might have missing, incorrect, or mismatched question numbers.
 Your task is to evaluate the student's answers by comparing them with the reference answers and the questions. Your evaluation should be robust enough to handle cases where question numbers are missing or mismatched. Use semantic analysis, keyword extraction, and contextual clues (e.g., formulas, diagrams, key phrases) to map and assess the responses.
 
 Instructions:
-
-1. Document Parsing and Data Extraction
-Question Paper & Answer Key Extraction:
-
-Extract each question and its details (diagrams, formulas, keywords).
-Extract the corresponding reference answers along with any special instructions and partial marking guidelines.
-Student Answer Sheet Extraction:
-
-Extract student responses, identifying content, keywords, and any diagrams or formulas.
 Do not rely solely on question numbers; if missing or mismatched, map using content-based analysis.
-2. Matching Student Responses to Questions
-Primary Matching:
-
-Use any provided question numbers to map responses to the corresponding questions.
-Content-Based Matching (for missing or mismatched numbers):
-
-Use semantic similarity metrics to map responses based on key phrases, formulas, or diagram references.
-Mark such responses as "Matched Based on Content" for reference in the feedback.
-Ambiguity Handling:
-
-If multiple possible matches occur or the confidence is lower, choose the best match based on semantic similarity.
 Note: Do not penalize scores heavily for low-confidence matching if the content is correct. Adjust scoring so that when the reference answer and student answer align well, the maximum marks are awarded.
+refer the question paper for the question structures and marks assigned to each question, and if there are any choice questions.
 3. Answer Evaluation and Scoring
 Evaluation Logic for Each Question:
 Correctness Check:
 Compare the student's response directly with the reference answer.
-Ensure that if the answer fully matches the reference answer (even if provided with a different question number), the full marks are awarded.
 Partial Credit (if applicable):
-Award partial marks only if the response is missing minor steps or details, according to the reference guidelines.
+Award partial marks if the response is missing minor steps or details, according to the reference guidelines.
 Use weighted criteria for partial credit so that correct reasoning and final answers yield near-maximum scores.
-Confidence Calibration:
-If the semantic similarity score is high (above a defined threshold, e.g., 0.85 or as calibrated), treat the response as correct and assign full marks.
 For responses with minor deviations (e.g., formatting or labeling issues), deduct only minimal marks.
 Feedback Generation:
 Provide specific, detailed feedback such as "Fully correct answer – all steps and reasoning are accurate" or "Minor detail missing – awarded partial credit."
-If matched by content rather than number, note "Response matched based on content analysis."
-Important: Ensure that scoring is calibrated so that correct and complete responses are not undervalued. Verify that full correctness leads to full marks unless there are explicitly defined errors.
 4. Output Format
 For each evaluated question, provide a detailed breakdown:
-
 Question Identifier:
-Use the original question number if available, or a system-assigned identifier if matched by content.
 Maximum Marks:
 Display the total marks available for the question.
 Awarded Marks:
@@ -144,16 +118,12 @@ Calculate the percentage based on the total possible marks.
 Overall Feedback:
 Summarize overall performance, noting areas of strength and any specific improvement suggestions.
 Example Output:
-
-yaml
-Copy
-Edit
 Question 1:
   - Maximum Marks: 10
   - Awarded Marks: 10
   - Feedback: "Fully correct answer with all calculation steps and correct final result. Response matched directly with reference answer."
 
-Question 2 (Matched Based on Content):
+Question 2:
   - Maximum Marks: 15
   - Awarded Marks: 15
   - Feedback: "The answer demonstrates a thorough understanding and correct application of the concept. Minor differences in phrasing did not affect correctness."
@@ -167,6 +137,9 @@ Final Score:
   - Total Marks Awarded: 30/30
   - Percentage: 100%
   - Overall Feedback: "Excellent performance with all answers correct. Clear reasoning and accurate use of diagrams and calculations throughout."
+
+make sure all the answers are evaluated and scored correctly.you must evaluate all the answers,as there there will be no manual evaluation or supervision the marks given by you is the final.
+and make sure the alloted marks is out of the maximum marks of the question paper (i.e: if the maximum marks of the question paper is 70, then the total marks alloted is for 70).
                 """
                 
                 response = self.model.generate_content(prompt)
